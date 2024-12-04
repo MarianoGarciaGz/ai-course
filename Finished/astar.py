@@ -2,19 +2,18 @@ import pygame
 from queue import PriorityQueue
 
 # Configuraciones iniciales
-ANCHO_VENTANA = 800
+ANCHO_VENTANA = 1000
 VENTANA = pygame.display.set_mode((ANCHO_VENTANA, ANCHO_VENTANA))
 pygame.display.set_caption("Visualización de Nodos")
 
-# Colores (RGB)
-BLANCO = (155, 155, 155)
-NEGRO = (77, 77, 77)
-GRIS = (128, 128, 128)
-VERDE = (77, 233, 77)
-ROJO = (233, 77, 77)
-NARANJA = (233, 200, 77)
-PURPURA = (255, 255, 255)
-AZUL = (77, 77, 233)
+BLANCO = (200, 220, 230)
+NEGRO = (30, 40, 50)
+GRIS = (80, 100, 120)
+VERDE = (50, 180, 190)
+ROJO = (90, 130, 140)
+NARANJA = (110, 170, 180)
+PURPURA = (150, 200, 220)
+AZUL = (50, 120, 200)
 
 
 class Nodo:
