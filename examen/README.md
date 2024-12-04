@@ -1,12 +1,12 @@
-### **Respuestas Breves**
+# Respuestas
 
-#### **¿Son los datos linealmente separables?**
+## **¿Son los datos linealmente separables?**
 
 No, los datos **no son linealmente separables**, ya que no es posible dividir las tres clases de riesgo con una línea recta o un plano en el espacio de características.
 
 ---
 
-#### **¿Qué ajustes podrían hacer al modelo para mejorar la clasificación?**
+## **¿Qué ajustes podrían hacer al modelo para mejorar la clasificación?**
 
 1. Incrementar el tamaño del conjunto de datos para una mejor generalización.
 2. Añadir más neuronas o capas ocultas para capturar relaciones más complejas.
@@ -16,7 +16,7 @@ No, los datos **no son linealmente separables**, ya que no es posible dividir la
 
 ---
 
-#### **Describir cada una de las partes del modelo implementado:**
+## **Describir cada una de las partes del modelo implementado:**
 
 1. **Entrada:**
    - Características: Historial de pagos, ingresos mensuales, relación deuda-ingreso.
