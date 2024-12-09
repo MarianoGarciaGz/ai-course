@@ -1,5 +1,6 @@
 import pygame
 from queue import PriorityQueue
+import math
 
 # Configuraciones iniciales
 ANCHO_VENTANA = 1000
@@ -14,7 +15,6 @@ ROJO = (90, 130, 140)
 NARANJA = (110, 170, 180)
 PURPURA = (150, 200, 220)
 AZUL = (50, 120, 200)
-
 
 class Nodo:
     def __init__(self, fila, col, ancho, total_filas):
@@ -65,38 +65,30 @@ class Nodo:
 
     def actualizar_vecinos(self, grid):
         self.vecinos = []
-        if (
-            self.fila < self.total_filas - 1
-            and not grid[self.fila + 1][self.col].es_pared()
-        ):  # Abajo
-            self.vecinos.append(grid[self.fila + 1][self.col])
+        filas = self.total_filas
+        # Movimientos en 8 direcciones (incluyendo diagonales)
+        direcciones = [(-1, -1), (-1, 0), (-1, 1),
+                       (0, -1),         (0, 1),
+                       (1, -1),  (1, 0),  (1, 1)]
 
-        if self.fila > 0 and not grid[self.fila - 1][self.col].es_pared():  # Arriba
-            self.vecinos.append(grid[self.fila - 1][self.col])
-
-        if (
-            self.col < self.total_filas - 1
-            and not grid[self.fila][self.col + 1].es_pared()
-        ):  # Derecha
-            self.vecinos.append(grid[self.fila][self.col + 1])
-
-        if self.col > 0 and not grid[self.fila][self.col - 1].es_pared():  # Izquierda
-            self.vecinos.append(grid[self.fila][self.col - 1])
-
+        for dx, dy in direcciones:
+            nueva_fila = self.fila + dx
+            nueva_col = self.col + dy
+            if 0 <= nueva_fila < filas and 0 <= nueva_col < filas:
+                vecino = grid[nueva_fila][nueva_col]
+                if not vecino.es_pared():
+                    self.vecinos.append(vecino)
 
 def heuristica(p1, p2):
-    # Distancia Manhattan
     x1, y1 = p1
     x2, y2 = p2
-    return abs(x1 - x2) + abs(y1 - y2)
-
+    return math.hypot(x2 - x1, y2 - y1)
 
 def reconstruir_camino(came_from, nodo_actual, dibujar):
     while nodo_actual in came_from:
         nodo_actual = came_from[nodo_actual]
         nodo_actual.hacer_camino()
         dibujar()
-
 
 def algoritmo_a_star(dibujar, grid, inicio, fin):
     count = 0
@@ -126,14 +118,22 @@ def algoritmo_a_star(dibujar, grid, inicio, fin):
             return True
 
         for vecino in nodo_actual.vecinos:
-            temp_g_score = g_score[nodo_actual] + 1
+            # Calcula la diferencia en posiciones
+            dx = vecino.fila - nodo_actual.fila
+            dy = vecino.col - nodo_actual.col
+
+            # Si es movimiento diagonal
+            if dx != 0 and dy != 0:
+                costo_movimiento = math.sqrt(2)
+            else:
+                costo_movimiento = 1
+
+            temp_g_score = g_score[nodo_actual] + costo_movimiento
 
             if temp_g_score < g_score[vecino]:
                 came_from[vecino] = nodo_actual
                 g_score[vecino] = temp_g_score
-                f_score[vecino] = temp_g_score + heuristica(
-                    vecino.get_pos(), fin.get_pos()
-                )
+                f_score[vecino] = temp_g_score + heuristica(vecino.get_pos(), fin.get_pos())
 
                 if vecino not in open_set_hash:
                     count += 1
@@ -148,7 +148,6 @@ def algoritmo_a_star(dibujar, grid, inicio, fin):
 
     return False
 
-
 def crear_grid(filas, ancho):
     grid = []
     ancho_nodo = ancho // filas
@@ -159,7 +158,6 @@ def crear_grid(filas, ancho):
             grid[i].append(nodo)
     return grid
 
-
 def dibujar_grid(ventana, filas, ancho):
     ancho_nodo = ancho // filas
     for i in range(filas):
@@ -168,7 +166,6 @@ def dibujar_grid(ventana, filas, ancho):
             pygame.draw.line(
                 ventana, GRIS, (j * ancho_nodo, 0), (j * ancho_nodo, ancho)
             )
-
 
 def dibujar(ventana, grid, filas, ancho):
     ventana.fill(BLANCO)
@@ -179,14 +176,12 @@ def dibujar(ventana, grid, filas, ancho):
     dibujar_grid(ventana, filas, ancho)
     pygame.display.update()
 
-
 def obtener_click_pos(pos, filas, ancho):
     ancho_nodo = ancho // filas
     y, x = pos
     fila = y // ancho_nodo
     col = x // ancho_nodo
     return fila, col
-
 
 def main(ventana, ancho):
     FILAS = 20
@@ -239,6 +234,5 @@ def main(ventana, ancho):
                     )
 
     pygame.quit()
-
 
 main(VENTANA, ANCHO_VENTANA)
