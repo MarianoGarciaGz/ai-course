@@ -1,484 +1,238 @@
-import os
-import random
-import csv
-
 import pygame
-import numpy as np
-import pandas as pd
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.model_selection import train_test_split
-import joblib
+from queue import PriorityQueue
+import math
 
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
-from tensorflow import keras
-from PIL import Image, ImageFilter, ImageEnhance
+# Configuraciones iniciales
+ANCHO_VENTANA = 1000
+VENTANA = pygame.display.set_mode((ANCHO_VENTANA, ANCHO_VENTANA))
+pygame.display.set_caption("Visualización de Nodos")
 
+BLANCO = (200, 220, 230)
+NEGRO = (30, 40, 50)
+GRIS = (80, 100, 120)
+VERDE = (50, 180, 190)
+ROJO = (90, 130, 140)
+NARANJA = (110, 170, 180)
+PURPURA = (150, 200, 220)
+AZUL = (50, 120, 200)
 
-# ------------------------ Inicialización de Pygame ------------------------
-pygame.init()
+class Nodo:
+    def __init__(self, fila, col, ancho, total_filas):
+        self.fila = fila
+        self.col = col
+        self.x = fila * ancho
+        self.y = col * ancho
+        self.color = BLANCO
+        self.ancho = ancho
+        self.total_filas = total_filas
+        self.vecinos = []
 
-# Dimensiones de la pantalla
-WIDTH, HEIGHT = 800, 400
-pantalla = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Juego: Disparo de Bala, Salto, Nave y Menú")
+    def get_pos(self):
+        return self.fila, self.col
 
-# Fuente y colores
-FUENTE = pygame.font.Font(None, 36)
-BLANCO = (255, 255, 255)
-NEGRO = (0, 0, 0)
+    def es_pared(self):
+        return self.color == NEGRO
 
-# ------------------------ Carga de recursos (Imágenes) ------------------------
-jugador_frames = [
-    pygame.image.load('./assets/sprites/mono_frame_1.png'),
-    pygame.image.load('./assets/sprites/mono_frame_1.png')
-]
-bala_img = pygame.image.load('./assets/sprites/purple_ball.png')
-fondo_img = pygame.image.load('./assets/game/fondo.png')
-nave_img = pygame.image.load('./assets/game/ufo.png')
-menu_img = pygame.image.load('./assets/game/menu.png')
+    def es_inicio(self):
+        return self.color == NARANJA
 
-# Escalar el fondo al tamaño de la ventana
-fondo_img = pygame.transform.scale(fondo_img, (WIDTH, HEIGHT))
+    def es_fin(self):
+        return self.color == PURPURA
 
-# ------------------------ Variables globales del juego ------------------------
-jugador = pygame.Rect(50, HEIGHT - 100, 32, 48)
-bala = pygame.Rect(WIDTH - 50, HEIGHT - 90, 16, 16)
-nave = pygame.Rect(WIDTH - 100, HEIGHT - 100, 64, 64)
+    def hacer_inicio(self):
+        self.color = NARANJA
 
-# Estado del jugador (Salto y gravedad)
-salto = False
-salto_altura = 15
-gravedad = 1
-en_suelo = True
+    def hacer_pared(self):
+        self.color = NEGRO
 
-# Estado de la bala
-velocidad_bala = -10
-bala_disparada = False
+    def hacer_fin(self):
+        self.color = PURPURA
 
-# Posiciones del fondo para efecto "scroll"
-fondo_x1 = 0
-fondo_x2 = WIDTH
+    def hacer_camino(self):
+        self.color = PURPURA
 
-# Estado del juego
-pausa = False
-menu_activo = True
-modo_auto = False
+    def hacer_visitado(self):
+        self.color = ROJO
 
-# Datos para entrenamiento
-datos_para_csv = []
+    def hacer_explorado(self):
+        self.color = VERDE
 
+    def restablecer(self):
+        self.color = BLANCO
 
-# ------------------------ Clase para manejo de modelos (Machine Learning) ------------------------
-class ModelManager:
-    def __init__(self):
-        self.arbol = DecisionTreeClassifier()
-        self.red_neuronal = None
-        self.entrenado = False
+    def dibujar(self, ventana):
+        pygame.draw.rect(ventana, self.color, (self.x, self.y, self.ancho, self.ancho))
 
-    def cargar_modelo_h5(self, filepath="modelo_red.h5"):
-        # Carga un modelo de red neuronal previamente entrenado (Keras)
-        try:
-            self.red_neuronal = keras.models.load_model(filepath)
-            self.red_neuronal.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
-            self.entrenado = True
-            print(f"Modelo de red neuronal cargado desde {filepath}.")
-        except FileNotFoundError:
-            print(f"No se encontró el archivo {filepath}. Por favor, entrena y guarda un modelo primero.")
-            self.entrenado = False
+    def actualizar_vecinos(self, grid):
+        self.vecinos = []
+        filas = self.total_filas
+        # Movimientos en 8 direcciones (incluyendo diagonales)
+        direcciones = [(-1, -1), (-1, 0), (-1, 1),
+                       (0, -1),         (0, 1),
+                       (1, -1),  (1, 0),  (1, 1)]
 
-    def predecir_red(self, velocidad, distancia, umbral=0.5):
-        # Realiza una predicción con la red neuronal dada una velocidad y distancia
-        if not self.entrenado or self.red_neuronal is None:
-            raise ValueError("El modelo de red neuronal no está entrenado.")
-        entrada = np.array([[velocidad, distancia]])
-        prediccion = self.red_neuronal.predict(entrada)[0][0]
-        return 1 if prediccion >= umbral else 0
+        for dx, dy in direcciones:
+            nueva_fila = self.fila + dx
+            nueva_col = self.col + dy
+            if 0 <= nueva_fila < filas and 0 <= nueva_col < filas:
+                vecino = grid[nueva_fila][nueva_col]
+                if not vecino.es_pared():
+                    self.vecinos.append(vecino)
 
-    def entrenar_arbol(self, datos):
-        # Entrena el árbol de decisiones con datos en memoria (numpy array)
-        self.arbol = DecisionTreeClassifier()
-        self.entrenado = False
-        if len(datos) > 0:
-            X, y = datos[:, :2], datos[:, 2]
-            self.arbol.fit(X, y)
-            self.entrenado = True
-            print("Árbol entrenado correctamente.")
-        else:
-            print("No hay datos para entrenar.")
+def heuristica(p1, p2):
+    x1, y1 = p1
+    x2, y2 = p2
+    return math.hypot(x2 - x1, y2 - y1)
 
-    def predecir_arbol(self, velocidad, distancia):
-        # Predice usando el árbol de decisiones ya entrenado
-        if not self.entrenado:
-            raise ValueError("El modelo no está entrenado.")
-        return int(self.arbol.predict([[velocidad, distancia]])[0])
+def reconstruir_camino(came_from, nodo_actual, dibujar):
+    while nodo_actual in came_from:
+        nodo_actual = came_from[nodo_actual]
+        nodo_actual.hacer_camino()
+        dibujar()
 
-    def guardar_modelo(self, filepath="modelo_arbol.pkl"):
-        # Guarda el árbol de decisiones entrenado
-        if self.entrenado:
-            joblib.dump(self.arbol, filepath)
-            print(f"Modelo guardado en {filepath}.")
-        else:
-            print("El modelo no está entrenado, no se guardará.")
+def algoritmo_a_star(dibujar, grid, inicio, fin):
+    count = 0
+    open_set = PriorityQueue()
+    open_set.put((0, count, inicio))
+    came_from = {}
 
-    def entrenar_arbol_desde_csv(self, filepath="dataset.csv"):
-        # Entrena el árbol leyendo los datos de un CSV
-        try:
-            print(f"Intentando cargar el dataset desde: {filepath}")
-            data = pd.read_csv(filepath)
-            print(f"Dataset cargado desde {filepath}.")
-            X = data[["Velocidad", "Distancia"]].values
-            y = data["Salto"].values
-            X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-            self.arbol.fit(X_train, y_train)
-            self.entrenado = True
-            print("Árbol de decisiones entrenado correctamente.")
-            self.guardar_modelo("modelo_arbol.pkl")
-        except FileNotFoundError:
-            print(f"No se encontró el archivo {filepath}.")
-        except pd.errors.EmptyDataError:
-            print(f"El archivo {filepath} está vacío o tiene un formato incorrecto.")
-        except Exception as e:
-            print(f"Ocurrió un error al entrenar el árbol de decisiones: {e}")
+    g_score = {nodo: float("inf") for fila in grid for nodo in fila}
+    g_score[inicio] = 0
 
-    def cargar_modelo(self, filepath="modelo_arbol.pkl"):
-        # Carga un árbol de decisiones entrenado desde disco
-        try:
-            self.arbol = joblib.load(filepath)
-            self.entrenado = True
-            print(f"Modelo cargado desde {filepath}.")
-        except FileNotFoundError:
-            print(f"No se encontró el archivo {filepath}.")
+    f_score = {nodo: float("inf") for fila in grid for nodo in fila}
+    f_score[inicio] = heuristica(inicio.get_pos(), fin.get_pos())
 
-    def entrenar_red_desde_csv(self, filepath="dataset.csv", modelo_guardado="modelo_red.h5"):
-        # Entrena la red neuronal leyendo datos desde un CSV
-        try:
-            print(f"Intentando cargar el dataset desde: {filepath}")
-            data = pd.read_csv(filepath)
-            print(f"Dataset cargado desde {filepath}.")
-            X = data[["Velocidad", "Distancia"]].values
-            y = data["Salto"].values
-            X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-            self.red_neuronal = Sequential([
-                Dense(16, input_dim=2, activation='relu'),
-                Dense(8, activation='relu'),
-                Dense(1, activation='sigmoid')
-            ])
-            self.red_neuronal.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
-            self.red_neuronal.fit(X_train, y_train, epochs=20, batch_size=32, verbose=1)
-            self.red_neuronal.save(modelo_guardado)
-            self.entrenado = True
-            print(f"Modelo guardado en {modelo_guardado}.")
-        except FileNotFoundError:
-            print(f"No se encontró el archivo {filepath}.")
-        except pd.errors.EmptyDataError:
-            print(f"El archivo {filepath} está vacío o tiene un formato incorrecto.")
-        except Exception as e:
-            print(f"Ocurrió un error al entrenar el modelo: {e}")
+    open_set_hash = {inicio}
 
-    def entrenar_red(self, datos):
-        # Entrena la red neuronal con datos en memoria
-        if len(datos) > 0:
-            X = datos[:, :2]
-            y = datos[:, 2]
-            X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-            self.red_neuronal = Sequential([
-                Dense(16, input_dim=2, activation='relu'),
-                Dense(8, activation='relu'),
-                Dense(1, activation='sigmoid')
-            ])
-            self.red_neuronal.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
-            self.red_neuronal.fit(X_train, y_train, epochs=20, batch_size=32, verbose=1)
-            self.entrenado = True
-        else:
-            print("No hay datos para entrenar.")
-
-
-model_manager = ModelManager()
-
-
-# ------------------------ Funciones de menú y juego ------------------------
-
-def mostrar_menu():
-    # Muestra el menú principal y permite seleccionar el modo de juego
-    global modo_auto
-
-    # Cargar y procesar la imagen de fondo del menú
-    menu_fondo = Image.open('./assets/game/fondo2.png')
-    menu_fondo = menu_fondo.resize((WIDTH, HEIGHT))
-    fondo_blur = menu_fondo.filter(ImageFilter.GaussianBlur(100))
-    enhancer = ImageEnhance.Brightness(fondo_blur)
-    fondo_oscuro = enhancer.enhance(0.5)
-    fondo_surface = pygame.image.fromstring(fondo_oscuro.tobytes(), fondo_oscuro.size, fondo_oscuro.mode)
-    pantalla.blit(fondo_surface, (0, 0))
-
-    fuente_titulo = pygame.font.Font(None, 48)
-    fuente_opciones = pygame.font.Font(None, 36)
-
-    # Título del menú
-    titulo = fuente_titulo.render("Menú Principal", True, BLANCO)
-    pantalla.blit(titulo, (WIDTH // 2 - titulo.get_width() // 2, HEIGHT // 2 - 140))
-
-    # Opciones del menú
-    lineas_texto = [
-        "Presiona 'M': Modo Manual",
-        "Presiona 'A': Modo Automático (Red Neuronal)",
-        "Presiona 'W': Modo Automático (Árbol de Decisiones)",
-        "Presiona 'R': Entrenar Árbol",
-        "Presiona 'E': Entrenar Red Neuronal",
-        "Presiona 'D': Guardar Dataset en CSV",
-        "Presiona 'Q': Salir"
-    ]
-
-    y = HEIGHT // 2 - 100
-    for linea in lineas_texto:
-        texto = fuente_opciones.render(linea, True, BLANCO)
-        pantalla.blit(texto, (WIDTH // 2 - texto.get_width() // 2, y))
-        y += texto.get_height() + 10
-
-    pygame.display.flip()
-
-    # Esperar a que el usuario seleccione una opción
-    while True:
-        for evento in pygame.event.get():
-            if evento.type == pygame.QUIT:
+    while not open_set.empty():
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
                 pygame.quit()
-                exit()
-            if evento.type == pygame.KEYDOWN:
-                if evento.key == pygame.K_a:
-                    modo_auto = "red"
-                    model_manager.cargar_modelo_h5()
-                    return
-                if evento.key == pygame.K_w:
-                    modo_auto = "arbol"
-                    model_manager.cargar_modelo("modelo_arbol.pkl")
-                    return
-                if evento.key == pygame.K_m:
-                    modo_auto = "manual"
-                    return
-                if evento.key == pygame.K_r:
-                    model_manager.entrenar_arbol_desde_csv("dataset.csv")
-                if evento.key == pygame.K_e:
-                    model_manager.entrenar_red_desde_csv()
-                if evento.key == pygame.K_d:
-                    guardar_dataset()
-                if evento.key == pygame.K_q:
-                    pygame.quit()
-                    exit()
 
+        nodo_actual = open_set.get()[2]
+        open_set_hash.remove(nodo_actual)
 
-def guardar_dataset(filepath="dataset.csv"):
-    # Guarda los datos recopilados en un archivo CSV
-    global datos_para_csv
-    if len(datos_para_csv) == 0:
-        print("No hay datos para guardar.")
-        return
+        if nodo_actual == fin:
+            reconstruir_camino(came_from, fin, dibujar)
+            fin.hacer_fin()
+            return True
 
-    with open(filepath, mode='w', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerow(["Velocidad", "Distancia", "Salto"])
-        writer.writerows(datos_para_csv)
+        for vecino in nodo_actual.vecinos:
+            # Calcula la diferencia en posiciones
+            dx = vecino.fila - nodo_actual.fila
+            dy = vecino.col - nodo_actual.col
 
-    print(f"Dataset guardado en {filepath}.")
-    datos_para_csv = []
-    print("Lista de datos para CSV limpiada.")
+            # Si es movimiento diagonal
+            if dx != 0 and dy != 0:
+                costo_movimiento = math.sqrt(2)
+            else:
+                costo_movimiento = 1
 
+            temp_g_score = g_score[nodo_actual] + costo_movimiento
 
-def disparar_bala():
-    # Inicia el movimiento de la bala con una velocidad aleatoria
-    global bala_disparada, velocidad_bala
-    if not bala_disparada:
-        velocidad_bala = random.randint(-8, -3)
-        bala_disparada = True
+            if temp_g_score < g_score[vecino]:
+                came_from[vecino] = nodo_actual
+                g_score[vecino] = temp_g_score
+                f_score[vecino] = temp_g_score + heuristica(vecino.get_pos(), fin.get_pos())
 
+                if vecino not in open_set_hash:
+                    count += 1
+                    open_set.put((f_score[vecino], count, vecino))
+                    open_set_hash.add(vecino)
+                    vecino.hacer_explorado()
 
-def reset_bala():
-    # Devuelve la bala a su posición inicial
-    global bala, bala_disparada
-    bala.x = WIDTH - 50
-    bala_disparada = False
+        dibujar()
 
+        if nodo_actual != inicio:
+            nodo_actual.hacer_visitado()
 
-def manejar_salto():
-    # Controla el salto del jugador
-    global jugador, salto, salto_altura, gravedad, en_suelo
+    return False
 
-    if salto:
-        if salto_altura > 0:
-            # Fase ascendente
-            jugador.y -= salto_altura
-            salto_altura -= gravedad
-        else:
-            # Fase descendente
-            jugador.y += abs(salto_altura)
-            salto_altura -= gravedad
+def crear_grid(filas, ancho):
+    grid = []
+    ancho_nodo = ancho // filas
+    for i in range(filas):
+        grid.append([])
+        for j in range(filas):
+            nodo = Nodo(i, j, ancho_nodo, filas)
+            grid[i].append(nodo)
+    return grid
 
-        # Si el jugador toca el suelo, se restablece el estado
-        if jugador.y >= HEIGHT - 100:
-            jugador.y = HEIGHT - 100
-            salto = False
-            en_suelo = True
-            salto_altura = 15
+def dibujar_grid(ventana, filas, ancho):
+    ancho_nodo = ancho // filas
+    for i in range(filas):
+        pygame.draw.line(ventana, GRIS, (0, i * ancho_nodo), (ancho, i * ancho_nodo))
+        for j in range(filas):
+            pygame.draw.line(
+                ventana, GRIS, (j * ancho_nodo, 0), (j * ancho_nodo, ancho)
+            )
 
-    # Evitar que el jugador suba demasiado
-    if jugador.y < 0:
-        jugador.y = 0
+def dibujar(ventana, grid, filas, ancho):
+    ventana.fill(BLANCO)
+    for fila in grid:
+        for nodo in fila:
+            nodo.dibujar(ventana)
 
+    dibujar_grid(ventana, filas, ancho)
+    pygame.display.update()
 
-def guardar_datos():
-    # Guarda los datos de la jugada para el dataset
-    global jugador, bala, velocidad_bala, salto, datos_para_csv
-    distancia = abs(jugador.x - bala.x)
-    salto_hecho = 1 if salto else 0
-    print(f"Guardando datos: Velocidad={velocidad_bala}, Distancia={distancia}, Salto={salto_hecho}")
-    datos_para_csv.append((velocidad_bala, distancia, salto_hecho))
+def obtener_click_pos(pos, filas, ancho):
+    ancho_nodo = ancho // filas
+    y, x = pos
+    fila = y // ancho_nodo
+    col = x // ancho_nodo
+    return fila, col
 
+def main(ventana, ancho):
+    FILAS = 20
+    grid = crear_grid(FILAS, ancho)
 
-def jugar_automatico():
-    # Controla el modo automático usando el modelo entrenado (red neuronal o árbol)
-    global salto, en_suelo, velocidad_bala, jugador, bala, modo_auto
-
-    distancia = abs(jugador.x - bala.x)
-    if modo_auto == "red":
-        if model_manager.entrenado and model_manager.red_neuronal:
-            prediccion = model_manager.predecir_red(velocidad_bala, distancia)
-        else:
-            print("Red Neuronal no entrenada o no cargada.")
-            return
-    elif modo_auto == "arbol":
-        if model_manager.entrenado:
-            prediccion = model_manager.predecir_arbol(velocidad_bala, distancia)
-        else:
-            print("Árbol de Decisiones no entrenado o no cargado.")
-            return
-    else:
-        print("Modo automático desconocido.")
-        return
-
-    # Si el modelo predice 1 y el jugador está en el suelo, se salta
-    if prediccion == 1 and en_suelo:
-        salto = True
-        en_suelo = False
-
-
-def perder_y_regresar_menu():
-    # Cuando se pierde, se guarda el dataset y se vuelve al menú
-    global jugador, bala, nave, bala_disparada, salto, en_suelo
-    print("Regresando al menú...")
-    guardar_dataset()
-
-    # Reiniciar estado
-    jugador.x, jugador.y = 50, HEIGHT - 100
-    bala.x = WIDTH - 50
-    nave.x, nave.y = WIDTH - 100, HEIGHT - 100
-    bala_disparada = False
-    salto = False
-    en_suelo = True
-
-    mostrar_menu()
-
-
-def reiniciar_juego():
-    # Reinicia el juego después de una colisión
-    global menu_activo, jugador, bala, nave, bala_disparada, salto, en_suelo
-    menu_activo = True
-    jugador.x, jugador.y = 50, HEIGHT - 100
-    bala.x = WIDTH - 50
-    nave.x, nave.y = WIDTH - 100, HEIGHT - 100
-    bala_disparada = False
-    salto = False
-    en_suelo = True
-    print("Datos recopilados para el modelo: ", datos_para_csv)
-    mostrar_menu()
-
-
-def update():
-    # Actualiza la posición del fondo, jugador, bala y detecta colisiones
-    global fondo_x1, fondo_x2, bala, velocidad_bala
-
-    # Mover el fondo para simular desplazamiento
-    fondo_x1 -= 1
-    fondo_x2 -= 1
-    if fondo_x1 <= -WIDTH:
-        fondo_x1 = WIDTH
-    if fondo_x2 <= -WIDTH:
-        fondo_x2 = WIDTH
-
-    pantalla.blit(fondo_img, (fondo_x1, 0))
-    pantalla.blit(fondo_img, (fondo_x2, 0))
-
-    # Dibujar el jugador (por ahora un solo frame)
-    pantalla.blit(jugador_frames[0], (jugador.x, jugador.y))
-
-    # Si la bala no ha sido disparada, dispararla
-    if not bala_disparada:
-        disparar_bala()
-
-    # Mover la bala
-    bala.x += velocidad_bala
-    if bala.x < 0:
-        reset_bala()
-
-    pantalla.blit(bala_img, (bala.x, bala.y))
-
-    # Detectar colisión jugador-bala
-    if jugador.colliderect(bala):
-        print("¡Colisión detectada!")
-        reiniciar_juego()
-
-    # Dibujar la nave (UFO)
-    pantalla.blit(nave_img, (nave.x, nave.y))
-
-
-def pausa_juego():
-    # Pausa o reanuda el juego
-    global pausa
-    pausa = not pausa
-    if pausa:
-        print("Juego pausado.")
-    else:
-        print("Juego reanudado.")
-
-
-def main():
-    # Función principal del juego
-    global salto, en_suelo, bala_disparada, modo_auto, datos_para_csv, pausa
-
-    reloj = pygame.time.Clock()
-
-    # Mostrar el menú inicial
-    mostrar_menu()
+    inicio = None
+    fin = None
 
     corriendo = True
+
     while corriendo:
-        for evento in pygame.event.get():
-            if evento.type == pygame.QUIT:
+        dibujar(ventana, grid, FILAS, ancho)
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
                 corriendo = False
-            if evento.type == pygame.KEYDOWN:
-                if evento.key == pygame.K_SPACE and en_suelo:
-                    salto = True
-                    en_suelo = False
-                if evento.key == pygame.K_p:  # Pausar o reanudar el juego
-                    pausa_juego()
-                if evento.key == pygame.K_o:  # Guardar el dataset y regresar al menú
-                    perder_y_regresar_menu()
 
-        if not pausa:
-            # Si es modo automático, usar el modelo para saltar
-            if modo_auto == "red" or modo_auto == "arbol":
-                jugar_automatico()
-            # En modo manual, capturar datos para entrenar luego
-            elif modo_auto == "manual":
-                guardar_datos()
+            if pygame.mouse.get_pressed()[0]:  # Click izquierdo
+                pos = pygame.mouse.get_pos()
+                fila, col = obtener_click_pos(pos, FILAS, ancho)
+                nodo = grid[fila][col]
+                if not inicio and nodo != fin:
+                    inicio = nodo
+                    inicio.hacer_inicio()
 
-            manejar_salto()
-            update()
+                elif not fin and nodo != inicio:
+                    fin = nodo
+                    fin.hacer_fin()
 
-        pygame.display.flip()
-        reloj.tick(30)
+                elif nodo != fin and nodo != inicio:
+                    nodo.hacer_pared()
+
+            elif pygame.mouse.get_pressed()[2]:  # Click derecho
+                pos = pygame.mouse.get_pos()
+                fila, col = obtener_click_pos(pos, FILAS, ancho)
+                nodo = grid[fila][col]
+                nodo.restablecer()
+                if nodo == inicio:
+                    inicio = None
+                elif nodo == fin:
+                    fin = None
+
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_SPACE and inicio and fin:
+                    for fila in grid:
+                        for nodo in fila:
+                            nodo.actualizar_vecinos(grid)
+
+                    algoritmo_a_star(
+                        lambda: dibujar(ventana, grid, FILAS, ancho), grid, inicio, fin
+                    )
 
     pygame.quit()
 
-
-if __name__ == "__main__":
-    main()
+main(VENTANA, ANCHO_VENTANA)
