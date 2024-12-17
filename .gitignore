@@ -1,1 +1,9 @@
 game.py~
+modelo_red.h5
+modelo_arbol.pkl
+Finished/3-images/assets/*
+Finished/3-images/venv/*
+Finished/3-images/CroppedImages/*
+Finished/3-images/Test/*
+cleaned_images/*
+*.keras
