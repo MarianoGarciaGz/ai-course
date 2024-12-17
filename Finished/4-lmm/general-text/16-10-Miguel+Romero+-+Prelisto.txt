@@ -1,0 +1,679 @@
+https://doi.org/10.69639/arandu.v11i2.379
+Iniciativa de reforma al Poder Judicial en México: Propuesta
+de enfoque equilibrado entre eficiencia e independencia
+Judicial reform initiative in Mexico: Proposal for a balanced
+approach between efficiency and Independence
+Miguel Ángel Medina Romero
+miguel.medina.romero@umich.mx
+https://orcid.org/0000-0003-4067-2816
+Universidad Michoacana de San Nicolás de Hidalgo
+Morelia – México
+Diana Berenice Jiménez Alanís
+dianaberenicejimenezalanis@gmail.com
+https://orcid.org/0009-0006-6074-3270
+Universidad Michoacana de San Nicolás de Hidalgo
+Morelia – México
+Artículo recibido: 20 septiembre 2024 - Aceptado para publicación: 26 octubre 2024
+Conflictos de intereses: Ninguno que declarar
+RESUMEN
+La iniciativa de reforma judicial propuesta a comienzos de 2024 en México ha generado un
+intenso debate sobre la independencia y la eficacia del sistema judicial. En un contexto de
+desconfianza ciudadana y acusación de corrupción, el gobierno planteó cambios significativos,
+incluyendo la elección popular de jueces y la reestructuración del Consejo de la Judicatura
+Federal. Este artículo evalúa si estas propuestas contribuirán a la eficiencia y modernización del
+sistema judicial mexicano. Mediante una revisión sistemática de literatura académica y
+experiencias internacionales, con énfasis en los casos de Bolivia y Estados Unidos de América,
+se analizan comparativamente fuentes primarias y secundarias. Los resultados revelan que la
+elección popular de jueces, aunque puede aumentar la percepción de legitimidad democrática,
+conlleva riesgos de politización y pérdida de independencia judicial. En Bolivia, la reforma de
+2009 no mejoró la calidad judicial ni la confianza pública, mientras que, en los Estados Unidos
+de América, los jueces tienden a adaptar sus decisiones a las preferencias de los electores. Se
+destaca la importancia de contar con un sistema de selección basado en méritos profesionales y
+fortalecer la rendición de cuentas sin comprometer la independencia judicial. Se concluye que la
+reforma debe diseñarse cuidadosamente para preservar la independencia e imparcialidad,
+cruciales para el Estado de Derecho. Se recomienda un enfoque equilibrado que considere
+eficiencia e independencia judicial, aprendiendo de experiencias internacionales para el contexto
+mexicano.
+Palabras clave: reforma judicial, independencia judicial, eficiencia, elección popular,
+estado de derecho
+Vol. 11/ Núm. 2 2024 pág. 1900ABSTRACT
+The judicial reform initiative proposed in early 2024 in Mexico has sparked an intense debate on
+the independence and effectiveness of the judicial system. In a context of public distrust and
+allegations of corruption, the government proposed significant changes, including the popular
+election of judges and the restructuring of the Federal Judiciary Council. This article evaluates
+whether these proposals will contribute to the efficiency and modernisation of the Mexican
+judicial system. Through a systematic review of academic literature and international experiences,
+with emphasis on the cases of Bolivia and the United States of America, primary and secondary
+sources are comparatively analysed. The results reveal that the popular election of judges,
+although it may increase the perception of democratic legitimacy, carries risks of politicisation
+and loss of judicial independence. In Bolivia, the 2009 reform did not improve judicial quality or
+public trust, whilst in the United States of America, judges tend to adapt their decisions to voters'
+preferences. The importance of having a selection system based on professional merit and
+strengthening accountability without compromising judicial independence is highlighted. It is
+concluded that the reform must be carefully designed to preserve independence and impartiality,
+crucial for the rule of law. A balanced approach that considers judicial efficiency and
+independence is recommended, learning from international experiences for the Mexican context.
+Keywords: judicial reform, judicial independence, efficiency, popular election, rule of
+law
+Todo el contenido de la Revista Científica Internacional Arandu UTIC publicado en este sitio está disponible bajo
+licencia Creative Commons Atribution 4.0 International.
+Vol. 11/ Núm. 2 2024 pág. 1901INTRODUCCIÓN
+El pasado 5 de febrero de 2024, en México, el Ejecutivo Federal envió a la Cámara de
+Diputados un paquete de 18 reformas constitucionales y 2 a leyes secundarias. Estas propuestas
+abarcan una amplia gama de temas, incluyendo cambios en materia penal, transporte ferroviario,
+industrias estratégicas, salud, medio ambiente, derechos laborales, sistema electoral, austeridad
+republicana, bienestar social, simplificación orgánica, seguridad pública, pensiones, reforma al
+Poder Judicial, derechos de pueblos indígenas y afromexicanos, protección animal y
+simplificación administrativa.
+Entre estas iniciativas, la reforma al Poder Judicial destaca como una de las más
+significativas y controvertidas (Sistema de Información Legislativa de la Secretaría de
+Gobernación, 2024). Esta propuesta busca transformar esencialmente la estructura y
+funcionamiento del sistema judicial mexicano. Los cambios más notables incluyen la reducción
+del número de ministros de la Suprema Corte de Justicia de la Nación (SCJN) de 11 a 9, la
+implementación de la elección popular de jueces, magistrados y ministros, la sustitución del
+Consejo de la Judicatura Federal por un Tribunal de Disciplina Judicial, y la imposición de plazos
+más estrictos para la resolución de casos. Esta reforma es parte de una agenda más amplia de
+transformaciones institucionales propuestas por el presidente Andrés Manuel López Obrador y
+respaldadas por el gobierno de la presidenta Claudia Sheinbaum Pardo, que busca, según su
+perspectiva, democratizar y hacer más eficiente el sistema de justicia en México. Sin embargo, ha
+generado un intenso debate sobre sus posibles implicaciones para la independencia judicial y el
+equilibrio de poderes en el país.
+El problema central que se aborda es el riesgo de que estos cambios puedan comprometer
+la imparcialidad y autonomía judicial, convirtiéndose en herramientas para consolidar el poder
+político. La importancia de este tema radica en la necesidad de asegurar que el Poder Judicial
+funcione como un contrapeso efectivo en la democracia, garantizando la justicia y equidad.
+Desde una perspectiva histórica, las reformas judiciales en México han sido una constante
+en la búsqueda de un sistema más justo y eficiente. La reforma de 1994, por ejemplo, introdujo
+cambios significativos al establecer un sistema más estructurado para la elección y promoción de
+jueces, asegurando la independencia judicial (Sistema de Información Legislativa de la Secretaría
+de Gobernación, 2024). Sin embargo, la actual propuesta de reforma ha generado preocupaciones
+debido a su enfoque en la elección popular de jueces, un método que, según experiencias
+internacionales, puede llevar a la politización del sistema judicial. En Bolivia, la reforma
+constitucional de 2009 que implementó la elección de jueces mediante el voto popular no logró
+aumentar la legitimidad ni mejorar la calidad judicial (Constitución Política del Estado de Bolivia,
+2009). Investigaciones posteriores revelaron que el proceso de preselección de candidatos estuvo
+Vol. 11/ Núm. 2 2024 pág. 1902sesgado por influencias políticas, lo que generó descontento y cuestionamientos sobre la
+legitimidad del sistema (Grupo Interdisciplinario de Expertos Independientes, 2021).
+En los Estados Unidos de América, un estudio sobre la elección de jueces locales demostró
+que este método puede ser perjudicial para la legitimidad judicial, ya que los jueces tienden a
+adaptar sus decisiones a las preferencias de sus electores para mantener sus cargos (American Bar
+Association, 2003). Este sistema ha generado un debate debido al creciente gasto de dinero por
+parte de grupos de interés, partidos políticos y candidatos en las campañas judiciales. La
+American Bar Association ha criticado las elecciones judiciales, argumentando que la justicia no
+debe depender de concursos de popularidad.
+La hipótesis central de este estudio es que, aunque la iniciativa de reforma busca mejorar
+la justicia, también podría consolidar el poder político, comprometiendo la independencia
+judicial. El análisis se basa en un enfoque comparativo y crítico, utilizando datos y argumentos
+de experiencias previas para ofrecer una visión equilibrada del tema. Se propone que cualquier
+reforma debe ser cuidadosamente diseñada para preservar la independencia judicial, mejorar la
+formación y capacitación de los jueces, y asegurar que los cambios promovidos no se conviertan
+en herramientas para consolidar el poder político.
+Por lo tanto, la iniciativa de reforma judicial en México representa un desafío complejo que
+requiere un análisis exhaustivo y un enfoque equilibrado. Es fundamental aprender de las
+experiencias internacionales para evitar errores similares y asegurar que las reformas realmente
+contribuyan a un sistema judicial más justo y efectivo. La independencia judicial no es un simple
+principio abstracto, sino una necesidad esencial para garantizar el derecho de todos los ciudadanos
+a la tutela judicial efectiva (Montesquieu, 1972). Para lograrlo, es necesario que el proceso
+legislativo se lleve a cabo de manera transparente y basado en un diagnóstico sólido de las
+necesidades reales del sistema.
+MATERIALES Y MÉTODOS
+La metodología empleada en este estudio sobre la iniciativa de reforma judicial en México
+se basa en un enfoque cualitativo y documental, diseñado para analizar en profundidad las
+implicaciones de las propuestas de cambio estructural al Poder Judicial (Hernández & Mendoza,
+2018; Medina-Romero et al., 2023). Este enfoque metodológico es crucial para comprender la
+complejidad del tema y sus posibles impactos en el sistema de justicia mexicano.
+La investigación se desarrolla a través de una revisión exhaustiva de fuentes primarias y
+secundarias, incluyendo la iniciativa de reforma judicial propuesta por el Ejecutivo Federal,
+documentos oficiales relacionados con reformas judiciales previas, literatura académica sobre
+independencia judicial y sistemas de selección de jueces, así como informes de organizaciones
+especializadas en temas judiciales. Esta diversidad de fuentes permite una comprensión holística
+del tema, abarcando perspectivas legales, políticas y sociales.
+Vol. 11/ Núm. 2 2024 pág. 1903Un componente clave de la metodología es el análisis comparativo, que examina casos
+internacionales, específicamente de Bolivia y los Estados Unidos de América, para contextualizar
+y contrastar las propuestas de reforma en México. Este enfoque comparativo es fundamental para
+identificar patrones, riesgos y posibles consecuencias de las reformas propuestas, basándose en
+experiencias concretas de otros sistemas judiciales.
+Además, se realiza un análisis crítico de los argumentos a favor y en contra de las
+principales propuestas de reforma, considerando sus posibles implicaciones para la independencia
+judicial y la eficacia del sistema de justicia. Este análisis crítico es esencial para evaluar
+objetivamente los méritos y riesgos potenciales de las reformas propuestas.
+La metodología culmina con una síntesis interpretativa que integra los hallazgos del análisis
+documental y comparativo para formular conclusiones sobre los potenciales beneficios y riesgos
+de la reforma propuesta. Esta síntesis es crucial para proporcionar una visión equilibrada y
+fundamentada sobre el impacto potencial de las potenciales reformas en la independencia y
+eficacia del sistema judicial mexicano.
+La importancia de esta metodología radica en su capacidad para abordar de manera
+profunda y contextualizada la compleja temática de la reforma judicial, yendo más allá de los
+aspectos cuantitativos para explorar las implicaciones cualitativas y sistémicas de las propuestas
+de reforma. Este enfoque permite una comprensión más rica y matizada de los desafíos y
+oportunidades que presenta la reforma judicial.
+Además, la metodología empleada proporciona una base sólida para la formulación de
+recomendaciones informadas y basadas en evidencia, contribuyendo así al debate público y
+académico sobre el futuro del sistema judicial en México. En un contexto donde las reformas
+judiciales pueden tener impactos profundos y duraderos en la administración de justicia y el
+Estado de Derecho, esta metodología ofrece un marco riguroso y sistemático para evaluar las
+propuestas de reforma, asegurando que las decisiones se tomen con una comprensión completa
+de sus posibles consecuencias.
+RESULTADOS Y DISCUSIÓN
+El análisis de la iniciativa de reforma propuesta para el Poder Judicial en México se
+fundamenta en un marco teórico que integra conceptos clásicos sobre la separación de poderes y
+la independencia judicial, así como un examen comparativo de experiencias internacionales
+(véase Tabla 1). Este enfoque multidimensional permite una evaluación crítica y contextualizada
+de las implicaciones de los cambios propuestos (ver Tabla 2).
+La teoría de la separación de poderes, pilar fundamental de los sistemas democráticos
+modernos, encuentra su expresión más influyente en el pensamiento de Montesquieu. En su obra
+"Del espíritu de las leyes" (1748), Montesquieu argumenta que la división del poder estatal en
+ramas distintas e independientes es esencial para prevenir la tiranía y garantizar la libertad
+Vol. 11/ Núm. 2 2024 pág. 1904política. Esta teoría subraya la importancia crucial de un Poder Judicial autónomo, capaz de actuar
+como contrapeso efectivo frente a los poderes Ejecutivo y Legislativo. La independencia judicial,
+según Montesquieu, no es un mero principio abstracto, sino una salvaguarda práctica contra la
+concentración del poder y el abuso de autoridad.
+En el contexto contemporáneo, la teoría de Montesquieu sigue siendo relevante, pero su
+aplicación enfrenta nuevos desafíos. Las reformas propuestas en México, particularmente la
+elección popular de jueces, plantean interrogantes fundamentales sobre cómo mantener la
+independencia judicial en un sistema que busca aumentar la legitimidad democrática del Poder
+Judicial. Este dilema refleja una tensión inherente entre dos principios democráticos: la
+participación popular y la imparcialidad judicial.
+La propuesta de elección popular de jueces se basa en la premisa de que un sistema más
+democrático podría aumentar la legitimidad del Poder Judicial. Sin embargo, esta idea ha sido
+cuestionada por estudios empíricos y análisis teóricos. La American Bar Association (2003), en
+su informe Justice in Jeopardy, advierte sobre los riesgos de politización que conlleva la elección
+popular de jueces. El informe señala que este sistema puede comprometer la imparcialidad
+judicial al introducir consideraciones políticas en el proceso de selección y en el comportamiento
+de los jueces una vez en el cargo.
+Las experiencias internacionales ofrecen lecciones valiosas en este sentido. El caso de
+Bolivia es particularmente ilustrativo. La reforma constitucional de 2009 introdujo la elección
+popular de jueces con el objetivo de democratizar el sistema judicial. Sin embargo, los resultados
+han sido mixtos en el mejor de los casos. Según Rivera (2009), la reforma no logró mejorar
+significativamente la calidad judicial ni aumentar la confianza pública en el sistema. Por el
+contrario, se observará una influencia política considerable en el proceso de selección, lo que
+socavó la percepción de independencia judicial.
+En Estados Unidos, donde la elección de jueces es una práctica establecida en muchos
+estados, se han documentado problemas similares. Estudios como el de Champagne (2001) han
+demostrado que las campañas judiciales a menudo se convierten en concursos de popularidad,
+donde los candidatos se ven presionados a adoptar posiciones políticas para ganar votos. Esto
+plantea serias preocupaciones sobre la integridad y la imparcialidad del sistema judicial.
+La teoría de la pureza del derecho de Hans Kelsen ofrece otra perspectiva relevante para
+este debate. Kelsen (1934) argumenta que el derecho debe ser interpretado de manera objetiva,
+libre de influencias políticas o morales externas. Esta resalta visión la importancia de mantener la
+independencia judicial como un baluarte contra la politización del derecho. En el contexto de las
+reformas propuestas en México, la teoría de Kelsen advierte sobre los peligros de introducir
+elementos de control político en la selección y el comportamiento de los jueces.
+El análisis comparativo con otros países revela patrones preocupantes. En Estados Unidos,
+por ejemplo, la elección de jueces ha generado preocupaciones sobre la influencia de intereses
+Vol. 11/ Núm. 2 2024 pág. 1905políticos y económicos en las decisiones judiciales. Estudios como el de Shepherd (2013) han
+demostrado que los jueces electos tienden a fallar a favor de los intereses que financiaron sus
+campañas, comprometiendo la integridad del sistema judicial.
+En México, la literatura reciente ha enfatizado la necesidad de reformas que fortalezcan la
+independencia judicial sin comprometer su eficacia. López Benítez (2024) argumenta que es
+fundamental a partir de un diagnóstico riguroso de las problemáticas específicas de la justicia
+local y federal antes de implementar cambios estructurales. Este enfoque subraya la importancia
+de una reforma basada en evidencia y adaptada al contexto mexicano.
+Los resultados del análisis de las reformas propuestas en México revelan una serie de
+implicaciones complejas. Por un lado, la elección popular de jueces y magistrados podría
+aumentar la percepción de legitimidad democrática del Poder Judicial. Este argumento se basa en
+la idea de que la participación directa de los ciudadanos en la selección de los jueces podría
+generar un mayor sentido de propiedad y confianza en el sistema judicial.
+Sin embargo, los riesgos asociados con esta propuesta son significativos. La experiencia de
+Bolivia, donde se implementó un sistema similar, ofrece una advertencia clara. Según el informe
+del Grupo Interdisciplinario de Expertos Independientes (2021), la elección popular de jueces en
+Bolivia no logró los objetivos deseados de mejorar la calidad judicial o aumentar la confianza
+pública. Por el contrario, el proceso se vio afectado por influencias políticas, lo que socavó la
+percepción de independencia judicial.
+En Estados Unidos, donde la elección de jueces es una práctica establecida en muchos
+estados, se han observado problemas similares. La American Bar Association (2003) ha criticado
+este sistema, argumentando que convierte la justicia en un "concurso de popularidad". Los
+estudios han demostrado que los jueces electos tienden a adaptar sus decisiones a las preferencias
+de los votantes, lo que compromete la imparcialidad judicial.
+Tabla 1
+Marco de referencia
+Relevancia
+Teoría/Concepto Autor(es) Descripción
+para el estudio
+División del poder Fundamental para
+estatal en ramas entender la
+distintas e importancia de un
+Separación de
+Montesquieu (1748). independientes para Poder Judicial
+poderes.
+prevenir la tiranía y independiente como
+garantizar la libertad contrapeso a los otros
+política. poderes del Estado.
+Resalta la
+El derecho debe ser
+importancia de
+Teoría pura del interpretado de
+Hans Kelsen (1934). mantener la
+derecho. manera objetiva, libre
+independencia
+de influencias
+judicial como
+Vol. 11/ Núm. 2 2024 pág. 1906políticas o morales baluarte contra la
+externas. politización del
+derecho.
+Proporciona un
+La democracia se
+argumento a favor de
+fortalece cuando los
+Democracia y control la elección popular de
+Robert Dahl (1956). ciudadanos tienen
+ciudadano. jueces, aunque debe
+control directo sobre
+equilibrarse con otros
+sus instituciones.
+principios.
+Crítica a las
+Destacan los riesgos
+elecciones judiciales,
+Legitimidad de politización y
+Asociación argumentando que la
+democrática versus pérdida de
+Americana de justicia no debe
+independencia independencia en los
+Abogados (2003). depender de
+judicial. sistemas de elección
+concursos de
+popular de jueces.
+popularidad.
+Necesidad de un
+Enfatiza la
+diagnóstico riguroso
+importancia de
+y una base
+Reforma judicial y López Benítez reformas basadas en
+metodológica sólida
+modernización. (2024). evidencia y adaptadas
+antes de implementar
+al contexto específico
+cambios
+del sistema judicial.
+estructurales.
+Análisis del caso Proporciona
+Grupo
+boliviano, donde la evidencia empírica
+Impacto de la Interdisciplinario de
+elección popular no sobre los posibles
+elección popular en la Expertos
+mejoró la calidad efectos negativos de
+calidad judicial. Independientes
+judicial ni la la elección popular de
+(2021).
+confianza pública. jueces.
+Presentar una
+perspectiva
+Argumentos a favor
+Teoría de la alternativa sobre
+Cárdenas Gracia de la elección popular
+legitimidad cómo lograr la
+(2023). de ministros de la
+institucional. legitimidad
+Suprema Corte.
+democrática en el
+sistema judicial.
+Fuente: Elaboración propia.
+La tensión entre la necesidad de reformas para mejorar la eficiencia y transparencia del
+sistema judicial y el riesgo de comprometer la independencia judicial es un tema central en este
+debate. Aunque la elección popular podría aumentar la legitimidad democrática, también podría
+llevar a una mayor influencia política en las decisiones judiciales. Esto plantea un dilema
+fundamental: ¿cómo equilibrar la responsabilidad democrática con la necesidad de un poder
+judicial independiente e imparcial?
+La propuesta de eliminar el Consejo de la Judicatura Federal y reemplazarlo por nuevas
+entidades también genera preocupaciones. El Consejo ha desempeñado un papel crucial en la
+Vol. 11/ Núm. 2 2024 pág. 1907administración y supervisión del Poder Judicial, y su eliminación podría crear un vacío
+institucional significativo. Además, las nuevas entidades propuestas podrían ser más susceptibles
+a la influencia política, lo que podría socavar aún más la independencia judicial.
+Tabla 2
+Resultados y discusión
+Aspectos analizados Hallazgos principales Implicaciones
+- Compromete la
+- Riesgo de politización del
+imparcialidad de las
+sistema judicial.
+decisiones judiciales.
+- Posible pérdida de
+- Puede afectar la calidad de
+Elección popular de jueces. independencia judicial.
+la justicia.
+- Experiencias negativas en
+- Necesidad de equilibrar
+Bolivia y Estados Unidos de
+legitimidad democrática e
+América.
+independencia judicial.
+- Posible concentración de
+- Propuesta de reducir de 11 a
+poder en menos manos.
+Reducción del número de 9 ministros.
+- Riesgo de menor diversidad
+ministros de la SCJN. - Objetivo declarado: mejorar
+de opiniones en decisiones
+eficiencia y transparencia.
+importantes.
+- Posible centralización del
+poder disciplinario.
+- Creación de un Tribunal de - Riesgo de interferencia
+Sustitución del Consejo de la Disciplina Judicial. política en decisiones
+Judicatura Federal. - Cambios en la estructura de judiciales.
+vigilancia y disciplina. - Necesidad de garantizar la
+independencia del nuevo
+órgano.
+- Puede acelerar procesos
+- Plazos máximos para
+judiciales.
+resolver casos (6 meses para
+- Riesgo de comprometer la
+fiscales, 1 año para penales).
+Nuevas reglas procesales. calidad de las resoluciones
+- Prohibición de suspensiones
+por presión de tiempo.
+contra leyes de efectos
+- Posible afectación al
+generales.
+derecho de amparo.
+- Riesgo de pérdida de
+- Posible interrupción de experiencia y conocimiento
+trayectorias profesionales. acumulado.
+Impacto en la carrera judicial.
+- Cambios en el sistema de - Necesidad de garantizar la
+evaluación y promoción. continuidad y el mérito en la
+carrera judicial.
+- Lecciones de Bolivia:
+- Importancia de considerar
+politización y falta de mejora
+riesgos observados en otros
+en la calidad judicial.
+países.
+Experiencias internacionales. - Lecciones de Estados
+- Necesidad de adaptar
+Unidos de América:
+reformas al contexto
+adaptación de decisiones a
+mexicano.
+preferencias electorales.
+Fuente: Elaboración propia.
+En términos de novedad científica, este análisis aporta una visión crítica y comparativa que
+subraya la importancia de aprender de las experiencias internacionales. Al examinar los casos de
+Bolivia y los Estados Unidos de América, se identifican patrones y riesgos que México debe
+Vol. 11/ Núm. 2 2024 pág. 1908considerar cuidadosamente al implementar sus propias reformas. Este enfoque comparativo
+permite una evaluación más matizada de las posibles consecuencias de los cambios propuestos
+(véase Tabla 3).
+Tabla 3
+Evaluación de la propuesta de reforma al Poder Judicial en México
+Aspecto Fortalezas Riesgos
+- Potencial aumento de - Politización del sistema
+legitimidad democrática. judicial.
+- Mayor participación - Pérdida de independencia
+ciudadana en el sistema judicial.
+judicial. - Jueces podrían adaptar
+Elección popular de jueces.
+- Cambio en la percepción decisiones a preferencias
+pública del rol judicial electorales.
+- Necesidad de adaptar el - Campañas judiciales
+sistema de selección judicial costosas y susceptibles a
+influencias externas.
+- Potencial mejora en la
+eficiencia y agilidad de
+- Posible concentración de
+decisiones.
+Reducción del número de poder en menos manos.
+- Posible reducción de costos
+ministros de la Suprema - Riesgo de menor diversidad
+operativos.
+Corte de Justicia de la de opiniones en decisiones
+- Cambio en la dinámica
+Nación. importantes.
+interna de la Corte.
+- Necesidad de ajustar
+procesos internos.
+- Potencial mejora en la
+supervisión y disciplina
+- Centralización del poder
+judicial
+disciplinario.
+- Posibilidad de procesos más
+- Posible interferencia
+ágiles
+Sustitución del Consejo de la política en decisiones
+- Reorganización
+Judicatura Federal. judiciales.
+administrativa del Poder
+- Pérdida de mecanismos de
+Judicial
+control y equilibrio.
+- Necesidad de establecer
+nuevos protocolos y
+procedimientos.
+- Potencial mejora en la
+celeridad de la justicia. - Riesgo de decisiones
+- Posible reducción de la apresuradas.
+carga de casos pendientes. - Posible compromiso de la
+Nuevas reglas procesales
+- Necesidad de adaptar calidad de las resoluciones.
+(plazos máximos).
+procesos y recursos a nuevos - Aumento de la presión sobre
+plazos. jueces y personal judicial.
+- Posible cambio en la gestión
+de casos.
+Comparativa con caso - Experiencia en - Riesgo de sesgo político en
+Bolivia. implementación de elección la selección de candidatos.
+Vol. 11/ Núm. 2 2024 pág. 1909popular de jueces. - Posible disminución de la
+- Lecciones aprendidas sobre calidad judicial.
+desafíos y obstáculos. - Riesgo de pérdida de
+- Diferencias en contexto confianza pública en el
+político y social. sistema judicial.
+- Necesidad de adaptar
+lecciones al contexto
+mexicano.
+- Experiencia en sistemas de
+elección judicial. - Riesgo de influencia de
+- Diversidad de modelos intereses económicos en
+Comparativa con caso estatales como referencia. campañas judiciales.
+Estados Unidos de América. - Diferencias en sistema - Posible adaptación de
+federal y tradición jurídica decisiones judiciales a
+- Variabilidad de sistemas preferencias electorales.
+entre estados.
+Fuente: Elaboración propia.
+La necesidad de un enfoque equilibrado que considere tanto la eficiencia como la
+independencia judicial es un tema recurrente en este análisis. Las reformas deben diseñarse
+cuidadosamente para abordar los problemas existentes en el sistema judicial mexicano sin
+comprometer los principios fundamentales de independencia e imparcialidad. Esto requiere un
+proceso de reforma basado en evidencia, que tome en cuenta las especificidades del contexto
+mexicano y las lecciones aprendidas de otras jurisdicciones (ver Tabla 4).
+Por lo tanto, este análisis contribuye al debate sobre la reforma judicial en México. Al
+examinar las propuestas a la luz de teorías establecidas y experiencias internacionales, se
+proporciona una base sólida para evaluar los posibles impactos de las reformas. Y la pertinencia
+de este trabajo radica en su capacidad para informar el diseño de políticas que fortalecen el Estado
+de Derecho en México, equilibrando la necesidad de legitimidad democrática con la preservación
+de la independencia judicial.
+Tabla 4
+Equilibrio entre eficiencia e independencia en la reforma al Poder Judicial en México
+Propuesta para la Salvaguardia de
+Aspecto Equilibrio propuesto
+eficiencia independencia
+Mantener proceso de
+Elección popular para Sistema mixto:
+selección basado en
+Selección de aumentar la preselección por
+méritos y
+jueces. legitimidad méritos y ratificación
+evaluaciones
+democrática. popular.
+rigurosas.
+Mantener un número
+Reducción de Optimización del
+suficiente para
+Estructura del ministros de la SCJN número de ministros
+garantizar la
+Poder Judicial. para agilizar con rotación parcial
+diversidad de
+decisiones. periódica.
+opiniones.
+Vol. 11/ Núm. 2 2024 pág. 1910Mantener la Órgano disciplinario
+Creación de Tribunal
+autonomía del mixto con
+Disciplina judicial. de Disciplina
+Consejo de la participación
+Judicial.
+Judicatura. equilibrada.
+Establecer plazos Plazos diferenciados
+Flexibilidad para
+Plazos procesales. máximos para según complejidad
+casos complejos.
+resoluciones. del caso.
+Sistema de formación
+Programas de
+Formación y Protección de la continua con
+actualización
+capacitación. carrera judicial. evaluación de
+continua.
+desempeño.
+Mecanismos de
+Transparencia y Publicación de Protección de la
+transparencia sin
+rendición de resoluciones y independencia en
+injerencia en
+cuentas. criterios. decisiones.
+decisiones judiciales.
+Presupuesto basado
+Asignación de Optimización del Garantía de recursos en resultados con
+recursos. presupuesto judicial. suficientes. garantía de mínimo
+operativo.
+Mecanismos de Consejos consultivos
+Participación Protección contra
+consulta y ciudadanos sin poder
+ciudadana. presiones externas.
+observación. vinculante.
+Salas especializadas
+Creación de
+Especialización Mantenimiento de la dentro de la
+tribunales
+judicial. unidad jurisdiccional. estructura judicial
+especializados.
+existente.
+Sistema de
+Protección contra
+Evaluación de Indicadores de evaluación integral
+represalias por
+desempeño. eficiencia y calidad. con garantías de
+decisiones.
+objetividad.
+Fuente: Elaboración propia.
+CONCLUSIONES
+La reforma judicial en México requiere un enfoque equilibrado que fortalezca tanto la
+eficiencia como la independencia del sistema judicial. Este equilibrio es crucial para garantizar
+un sistema de justicia que sea a la vez efectivo y confiable. A partir del análisis realizado, se
+propone un conjunto de medidas que buscan conciliar estos objetivos aparentemente
+contrapuestos, abordando diversas áreas del sistema judicial.
+En cuanto a la selección de jueces, se sugiere implementar un sistema mixto que combine
+una preselección basada en méritos profesionales con una ratificación popular. Este enfoque
+innovador busca mantener altos estándares de competencia profesional, asegurando que los
+candidatos tengan la experiencia y conocimientos necesarios para el cargo. Al mismo tiempo, la
+ratificación popular añade un elemento de legitimidad democrática, permitiendo a la ciudadanía
+tener voz en el proceso de selección. Este sistema podría implementarse a través de comités de
+Vol. 11/ Núm. 2 2024 pág. 1911selección que evalúen las credenciales profesionales de los candidatos, seguido de una votación
+pública para la ratificación final.
+Para la estructura del Poder Judicial, se propone una optimización del número de ministros
+de la Suprema Corte de Justicia de la Nación, con un sistema de rotación parcial periódica. Esta
+medida busca agilizar la toma de decisiones sin comprometer la diversidad de opiniones
+necesarias para una justicia equilibrada. La rotación parcial periódica permitiría la renovación
+gradual de la Corte, manteniendo un equilibrio entre la continuidad y la introducción de nuevas
+perspectivas. Por ejemplo, se podría establecer un sistema donde un tercio de los ministros sea
+renovado cada cierto número de años.
+En el ámbito de la disciplina judicial, se plantea la creación de un órgano disciplinario
+mixto con participación equilibrada de diferentes actores del sistema judicial. Este órgano podría
+incluir representantes del poder judicial, del legislativo y de la sociedad civil, asegurando así una
+supervisión integral y equilibrada. La participación de diversos actores ayudaría a mantener la
+autonomía necesaria mientras se fortalecen los mecanismos de supervisión y rendición de cuentas,
+previniendo tanto la impunidad como las interferencias indebidas en la judicial laboral.
+Para abordar la cuestión de los plazos procesales, se propone establecer plazos
+diferenciados según la complejidad de los casos. Esta medida reconoce que no todos los casos
+judiciales son iguales y que algunos requieren más tiempo para su adecuada resolución. Se
+podrían establecer categorías de casos basados en su complejidad, con plazos máximos
+correspondientes. Esto buscaría un equilibrio entre la eficiencia en la resolución de asuntos y la
+flexibilidad necesaria para casos que requieran un análisis más profundo, mejorando así la calidad
+de las resoluciones judiciales.
+La formación y capacitación de los jueces se abordaría mediante un sistema de formación
+continua con evaluación de desempeño. Este sistema podría incluir programas de actualización
+obligatoria, seminarios especializados y evaluaciones periódicas. La evaluación de desempeño no
+solo consideraría la cantidad de casos resueltos, sino también la calidad de las resoluciones y la
+adherencia a principios éticos. Este enfoque protegería la carrera judicial mientras promueve la
+actualización constante y la mejora en la calidad del servicio.
+En cuanto a la transparencia y rendición de cuentas, se sugieren mecanismos que permitan
+el acceso público a resoluciones y criterios judiciales, sin interferir en la independencia de las
+decisiones judiciales. Esto podría incluir la publicación en línea de todas las sentencias (con las
+debidas protecciones de datos personales), la transmisión en vivo de audiencias de alto perfil, y
+la publicación regular de informes sobre el desempeño del sistema judicial.
+Para la asignación de recursos, se propone adoptar un modelo de presupuesto basado en
+resultados. Este modelo garantizaría un mínimo operativo para el funcionamiento adecuado del
+sistema judicial, pero también incluiría incentivos para la eficiencia y la mejora continua. Por
+Vol. 11/ Núm. 2 2024 pág. 1912ejemplo, se podrían asignar recursos adicionales a los tribunales para demostrar mejoras en la
+eficiencia y calidad de sus resoluciones.
+La participación ciudadana se fomentaría a través de consejos consultivos sin poder
+vinculante. Estos consejos podrían ser compuestos por representantes de la sociedad civil,
+académicos y expertos en derecho, y tendrían la función de observar y asesorar sobre el
+funcionamiento del sistema judicial. Aunque sus recomendaciones no serían vinculantes,
+proporcionarían una valiosa perspectiva externa y aumentarían la transparencia del sistema.
+En el ámbito de la especialización judicial, se sugiere la creación de salas especializadas
+dentro de la estructura judicial existente. Estas salas se enfocarían en áreas específicas del
+derecho, como derecho ambiental, cibercriminalidad, o derechos humanos, permitiendo a los
+jueces desarrollar experiencia en campos específicos sin fragmentar la unidad jurisdiccional.
+Finalmente, para la evaluación del desempeño judicial, se propone implementar un sistema
+integral con garantías de objetividad. Este sistema consideraría múltiples factores, incluyendo la
+calidad de las resoluciones, la eficiencia en el manejo de casos, la adherencia a principios éticos
+y la capacidad de manejo de la carga de trabajo. Las evaluaciones serán realizadas por un comité
+independiente y los resultados se utilizarán para informar decisiones sobre promociones,
+asignaciones y necesidades de capacitación.
+Estas propuestas buscan abordar los desafíos identificados en el sistema judicial mexicano,
+promoviendo una reforma que equilibre la necesidad de eficiencia y modernización con la
+salvaguarda esencial de la independencia judicial. La implementación de estas medidas requerirá
+un cuidadoso proceso legislativo y administrativo, así como un compromiso sostenido de todos
+los actores involucrados en el sistema de justicia.
+Es importante destacar que la implementación de estaos cambios debería ser gradual y
+acompañada de un monitoreo constante para evaluar su efectividad y realizar ajustes según sea
+necesario. Además, se debería considerar la realización de proyectos piloto en ciertas
+jurisdicciones antes de una implementación a nivel nacional, lo que permitiría identificar y
+abordar posibles desafíos en una escala menor.
+La reforma judicial es un proceso complejo que requiere no solo cambios estructurales y
+procesales, sino también un cambio en la cultura institucional (Duverger, 1970). Por lo tanto,
+estas propuestas deben ir acompañadas de campañas de concientización y programas de
+capacitación para todos los actores del sistema judicial, desde jueces y abogados hasta el personal
+administrativo y la ciudadanía en general.
+En última instancia, el éxito de esta reforma dependerá de su capacidad para mejorar la
+eficiencia y la calidad de la justicia, mientras se mantiene y fortalece la independencia judicial.
+El objetivo final debe ser crear un sistema judicial que sea más accesible, eficiente y confiable
+para todos los ciudadanos mexicanos, contribuyendo así al fortalecimiento del Estado de Derecho
+en el país.
+Vol. 11/ Núm. 2 2024 pág. 1913REFERENCIAS
+American Bar Association. (2003). Justice in Jeopardy: Report of the American Bar Association
+Commission on the 21st Century Judiciary.
+https://www.opensocietyfoundations.org/publications/justice-jeopardy-report-american-
+bar-association-commission-21st-century-judiciary
+Cárdenas Gracia, J. (2023). Elección por voto ciudadano de la Suprema Corte de Justicia de la
+Nación. Universidad Nacional Autónoma de México.
+Constitución Política del Estado de Bolivia. (2009). Congreso Nacional.
+https://www.minculturas.gob.bo/wp-content/uploads/2021/08/BO-CPE-20090207.pdf
+Dahl, R. A. (1956). A Preface To Democratic Theory. The University of Chicago Press.
+Duverger, M. (1970). Instituciones políticas y Derecho Constitucional (5ª ed.). Ediciones Ariel.
+Grupo Interdisciplinario de Expertos Independientes. (2021). Informe Final sobre los hechos de
+violencia y vulneración de los derechos humanos ocurridos entre el 1° de septiembre y el
+31 de diciembre de 2019.
+Hernández-Sampieri, R., & Mendoza, C. P. (2018). Metodología de la investigación: Las rutas
+cuantitativa, cualitativa y mixta. McGraw-Hill Interamericana.
+Kelsen, H. (1979). Teoría pura del derecho (R. J. Vernengo, Trad.). Universidad Nacional
+Autónoma de México.
+López Benítez, L. M. (2024). Diálogos Nacionales sobre la Reforma Constitucional al Poder
+Judicial. Consejo de la Judicatura Federal.
+https://www.cjf.gob.mx/reformaPJF/versiones/27junio24/CD-CON-LOPEZ-
+BENITEZ.pdf
+Medina-Romero, M. Á., Rojas León, C. R., Bustamante Hoces, W., Loaiza Carrasco, R. M.,
+Martel Carranza, C. P., & Castillo Acobo, R. Y. (2023). Metodología de la investigación:
+Técnicas e instrumentos de investigación. Instituto Universitario de Innovación, Ciencia y
+Tecnología IMUDI Perú. https://doi.org/10.35622/inudi.b.080
+Montesquieu. (1972). Del espíritu de las leyes. Madrid.
+Sistema de Información Legislativa de la Secretaría de Gobernación. (2024). Iniciativa con
+Proyecto de Decreto por el que se reforman, adicionan y derogan diversas disposiciones
+de la Constitución Política de los Estados Unidos Mexicanos, en materia de reforma al
+Poder Judicial. Cámara de Diputados.
+http://sil.gobernacion.gob.mx/Archivos/Documentos/2024/02/asun_4696973_20240205_
+1707785928.pdf
+Vol. 11/ Núm. 2 2024 pág. 1914

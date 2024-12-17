@@ -21,7 +21,7 @@ class_labels = {
 yolo_model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
 
 # Directorio de entrada y salida
-input_dir = "./Test/4"
+input_dir = "./Test/5"
 output_dir = "./CroppedImages"
 os.makedirs(output_dir, exist_ok=True)
 

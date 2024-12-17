@@ -1,0 +1,826 @@
+Esta obra forma parte del acervo de la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM
+www.juridicas.unam.mx Libro completo en:
+https://biblio.juridicas.unam.mx/bjv https://tinyurl.com/mus8833t
+Reforma al Poder Judicial. Sustitución del actual
+Consejo de la Judicatura Federal por un nuevo órgano
+de administración judicial separado de la Suprema
+Corte y creación de un tribunal de disciplina judicial
+J. Jesús Garza Onofre*
+Sumario: I. Introducción. II. Contextualización. III. Justificación.
+IV. ¿En qué consiste ese aspecto de la reforma judicial? V. Opinión
+ponderada. VI. Conclusión.
+330011
+I. Introducción
+Resulta lógico que al momento en que el presidente de la República An-
+drés Manuel López Obrador develó su propuesta de reforma al Poder
+Judicial —dentro del paquete veinte iniciativas presentadas el pasado 5
+de febrero pasado—, la mayor parte de la atención se centró en la elec-
+ción popular de jueces. Esto ocurrió no sólo en ocasión de la visibilidad
+que tiene la Suprema Corte de Justicia de la Nación (SCJN) en la vida
+pública del país, sino, y quizá sobre todo, por las incesantes críticas que el
+titular del Poder Ejecutivo ha venido realizando sistemáticamente en con-
+tra del Poder Judicial Federal alegando, entre muchas otras cuestiones, sus
+presuntos esfuerzos por impedir la transformación de México y su supues-
+ta falta de cercanía con el pueblo al carecer de legitimidad democrática.
+Y es que parecería que los responsables de la impartición de justicia en
+este país son única y exclusivamente las personas juzgadoras, con énfasis
+particular en los ministros y las ministras de nuestro máximo tribunal.
+Así, según parece, poco importa reformar la justicia local y la estructura-
+* Investigador en el Instituto de Investigaciones Jurídicas de la UNAM, ORCID: 0000-
+0002-3011-1014.
+DR © 2024. Universidad Nacional Autónoma de México - Instituto de Investigaciones Jurídicas330022
+...samrofer
+ed
+savitaicini
+02
+sal
+ed
+ocincét
+sisilána
+Esta obra forma parte del acervo de la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM
+www.juridicas.unam.mx Libro completo en:
+https://biblio.juridicas.unam.mx/bjv https://tinyurl.com/mus8833t
+ción del federalismo judicial a lo largo y ancho del país, la proliferación
+de escuelas de derecho, la desregulación de la abogacía y la manera en que
+se organizan los servicios legales en México, o acaso, las instituciones de
+investigación criminal y el funcionamiento de las fiscalías, entre un sinfín
+más de temas.
+Bajo una primera impresión, se creería que de lo que se trata es de
+fragmentar y seccionar aspectos del sistema de justicia, evitando a toda
+costa desplegar una visión integral del mismo para su mejora, como si
+el solo hecho de cambiar de raíz la integración de una judicatura federal
+desaparecieran los grandes problemas que aquejan al país en materia de
+seguridad y justicia.
+En tal sentido, propuestas no menos importantes y significativas que
+la relativa a la elección de personas juzgadoras por voto popular pasaron
+más bien a un segundo plano, o incluso desapercibidas ante la opinión
+pública.
+Éste fue el caso de la iniciativa que plantea sustituir al actual Consejo
+de la Judicatura Federal (CJF o Consejo) por un nuevo órgano de admi-
+nistración judicial y crear un tribunal de disciplina judicial.
+Es decir, se trata de alterar por completo el modelo de administración
+judicial como se conoce hasta el día de hoy en México, fragmentándolo
+en dos, y separándolo funcional y orgánicamente de la SCJN. En resumi-
+das cuentas, estamos ante el mayor cambio que se haya planteado en estas
+cuestiones en los últimos treinta años.
+Una propuesta de estas magnitudes impacta no sólo a todo el sistema
+de justicia, sino también a diversos principios constitucionales, como
+los de división de poderes y legalidad; por tanto, su presentación no de-
+bería menospreciarse ni tampoco descalificarse de antemano en ocasión
+del contexto que se despliega.
+Por más que la actual administración federal se haya empeñado en ge-
+nerar un ambiente polarizado, donde parecería que no existen las medias
+tintas ni caben las disidencias, hoy más que nunca resulta indispensable
+hacer una defensa del derecho y del sistema de justicia, de aquellas insti-
+tuciones que deben trascender a los líderes y las mayorías en turno para
+poder generar estabilidad en el largo plazo.
+En tal sentido, el CJF se torna un órgano crucial para la consecución
+de tales objetivos. La “constitucionalización de la administración judi-
+cial ha favorecido el establecimiento de un conjunto de procedimientos
+DR © 2024. Universidad Nacional Autónoma de México - Instituto de Investigaciones Jurídicas330033
+...samrofer
+ed
+savitaicini
+02
+sal
+ed
+ocincét
+sisilána
+Esta obra forma parte del acervo de la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM
+www.juridicas.unam.mx Libro completo en:
+https://biblio.juridicas.unam.mx/bjv https://tinyurl.com/mus8833t
+e instrumentos para proveer a los órganos jurisdiccionales de los recursos
+materiales, humanos y tecnológicos necesarios para impartir justicia”.1
+Poner a discusión su viabilidad y reforma no sólo es sano para cualquier
+democracia, sino también necesario para su subsistencia y vigencia. Sin
+embargo, habrá que cuidar y analizar con mucha diligencia si el presente
+debate realmente puede servir para mejorar las instituciones involucradas,
+o sólo es un cúmulo de ocurrencias y politiquerías que anhelan construir
+instituciones a la medida para que el poder político pueda capturarlas.
+Ya se ha mencionado en reiteradas ocasiones, nada más falso que creer
+que las instituciones no se tocan, que éstas son inmutables al paso del
+tiempo y las coyunturas políticas. Claro que hay que tocar las institucio-
+nes,2 pero sólo si es para optimizarlas, para componer mejores mecanis-
+mos que las fortalezcan y ayuden no sólo a unos cuantos, sino a todas las
+personas. Ahí justamente se encuentran las verdaderas posibilidades de
+una reforma judicial que vele de manera genuina por un mejor entorno.
+Una vez que se ha llamado la atención en estos párrafos introduc-
+torios sobre la importancia de no menospreciar los presentes temas en
+materia de justicia, que por su carácter técnico y un tanto especializado
+tal vez no puedan resultar tan sugerentes como la elección popular de
+jueces, en los siguientes apartados se analiza la propuesta específica de la
+reforma judicial relativa a la administración y disciplina de la judicatura
+federal, y se reflexiona en torno a su contextualización (II) y justificación
+(III), exponiendo a detalle en qué consiste la misma (III); asimismo, se
+da una opinión ponderada respecto a sus aspectos positivos y negativos
+(IV). El trabajo finaliza con las conclusiones arrojadas a lo largo de todo
+lo estudiado (V).
+II. Contextualización
+Si lo que se pretende, como afirma la actual iniciativa de reforma judicial
+de 2024, es remediar “las causas estructurales relacionadas con la impu-
+nidad y la falta de justicia que ha padecido nuestro país en las últimas
+1 Rivas Acuña, Israel, El Consejo de la Judicatura Federal. Trayectoria y perspectivas, México,
+UNAM, 2011, p. 271.
+2 Córdova Vianello, Lorenzo, “Manifestación por la democracia”, Nexos, 18 de febrero de
+2024.
+DR © 2024. Universidad Nacional Autónoma de México - Instituto de Investigaciones Jurídicas330044
+...samrofer
+ed
+savitaicini
+02
+sal
+ed
+ocincét
+sisilána
+Esta obra forma parte del acervo de la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM
+www.juridicas.unam.mx Libro completo en:
+https://biblio.juridicas.unam.mx/bjv https://tinyurl.com/mus8833t
+décadas”, en ocasión de “la ausencia de una verdadera independencia de
+las instituciones encargadas de impartirla”,3 lo cierto es que, de entrada,
+llama mucho la atención que tan sólo hace un par de años, en 2021, el
+propio presidente de la República presentó una iniciativa anterior de re-
+forma judicial, respaldada por el entonces presidente de la SCJN y hoy
+militante del partido político en el poder, Arturo Zaldívar.
+No sólo resulta llamativo que el tiempo que transcurrió entre la inicia-
+tiva de aquel entonces y la que ahora se presenta sea relativamente breve
+para que se puedan reflejar y echar raíces en el sistema judicial mexica-
+no todas las modificaciones que fueron avaladas por los representantes
+populares, sino la poca atención que recibieron los temas relativos a la
+administración judicial.
+Y es que algunas de las modificaciones para el CJF implementadas
+con la reforma judicial de 2021 fueron más bien de corte adjetivo y con
+escasas repercusiones para dicho órgano, pues transitaron por ampliar al-
+gunas de sus facultades, intentar reglar de mejor manera los procedimien-
+tos para impugnar los concursos judiciales y elevar a nivel constitucional
+los organismos encargados de la formación judicial, pero sin que cambie
+prácticamente su naturaleza ni su dinámica.
+Fuera de esos cambios más bien minimalistas, lo relevante de la refor-
+ma de hace unos años respecto a la administración judicial se encuentra
+en sus silencios, en la manera tan burda como sus ideólogos e impulsores
+prefirieron no sólo evitar la modificación sustancial del Consejo de la Ju-
+dicatura, sino seguir perpetrando un ambiguo esquema que pudiera res-
+paldar a un ministro presidente con escaso apoyo al interior de la judica-
+tura, pero afín al gobierno en turno; esto, quizá, pueda explicar el fallido
+intento de Zaldívar por intentar prolongar su presidencia en el máximo
+tribunal en contra de lo que afirma clara y textualmente la Constitución.
+De este modo, por mucho que actores afines al gobierno hayan pro-
+clamado a los cuatro vientos que estábamos en presencia de un nuevo
+modelo de justicia, y que el Poder Judicial se había transformado gracias
+a la reforma de López Obrador y Zaldívar, la realidad era un tanto menos
+esperanzadora.
+3 Iniciativa con Proyecto de Decreto por el que se reforman, adicionan y derogan diversas
+disposiciones de la Constitución Política de los Estados Unidos Mexicanos, en materia de
+reforma al Poder Judicial, 2024, México, p. 1.
+DR © 2024. Universidad Nacional Autónoma de México - Instituto de Investigaciones Jurídicas330055
+...samrofer
+ed
+savitaicini
+02
+sal
+ed
+ocincét
+sisilána
+Esta obra forma parte del acervo de la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM
+www.juridicas.unam.mx Libro completo en:
+https://biblio.juridicas.unam.mx/bjv https://tinyurl.com/mus8833t
+De nueva cuenta, si bien hubo propuestas interesantes y cambios que
+podrían beneficiar a la ciudadanía en múltiples aspectos más allá de la
+administración judicial,4 al final, ninguna reforma puede corregir de in-
+mediato y por completo los múltiples problemas del sistema de justicia si
+esto no se realiza desde una óptica integral que abarque aspectos más allá
+de los exclusivamente normativos y jurisdiccionales.
+En ese sentido, el gobierno y la administración judicial, concretizados
+en el CJF, es tan sólo una parte del gran entramado que implica adentrar-
+se en la mejora de los temas relativos a la justicia mexicana; sin embargo,
+esa parte se torna crucial por el alcance de sus atribuciones y por su di-
+námica de funcionamiento.
+De ahí que no sólo se torna un tanto suspicaz el hecho de que sea
+hasta el último año de la actual administración cuando finalmente se de-
+cide reformar al Consejo de manera profunda, sino que también se devela
+la completa indeterminación por abordar el presente tema. Vale la pena
+recordar que cuando López Obrador era candidato a la presidencia en la
+elección federal de 2018, en su Proyecto de Nación planteó que se le ha-
+bía propuesto suprimir el Consejo de la Judicatura Federal “y en su lugar
+dicha labor la realice una nueva Sala de la Suprema Corte con el propósito
+de generar ahorros administrativos y al mismo tiempo evitar injerencias de
+otros poderes en el Judicial”.5 Como si la modificación de la administra-
+ción judicial dependiera de meras ocurrencias y ánimos coyunturales, y
+no de diagnósticos serios e ideas realistas, es preciso destacar la forma tan
+desorganizada en que ha desplegado tal encomienda.
+A pesar de la manera tan ruin que esta administración federal ha tra-
+tado al Poder Judicial, y del contradictorio timing político de la presen-
+tación de la propuesta de reforma judicial para modificar al Consejo, se
+torna pertinente asumirla con seriedad, estudiarla y dimensionarla, pues
+no cabe la menor duda de que este órgano es uno de los más poderosos del
+sistema de justicia en el país, ya que la propia Constitución le otorga “la
+administración, vigilancia y disciplina del Poder Judicial de la Federación,
+con excepción de la Suprema Corte de Justicia de la Nación”,6 una tarea
+4 Para un estudio integral y bien ponderado al respecto véase Caballero Juárez, José Anto-
+nio, La reforma judicial de 2021. ¿Hacia dónde va la justicia?, México, UNAM, Instituto
+de Investigaciones Jurídicas, 2021.
+5 “Proyecto de Nación 2018-2024”, Movimiento de Regeneración Nacional, México,
+2017, p. 60.
+6 Artículo 94 de la Constitución Política de los Estados Unidos Mexicanos.
+DR © 2024. Universidad Nacional Autónoma de México - Instituto de Investigaciones Jurídicas330066
+...samrofer
+ed
+savitaicini
+02
+sal
+ed
+ocincét
+sisilána
+Esta obra forma parte del acervo de la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM
+www.juridicas.unam.mx Libro completo en:
+https://biblio.juridicas.unam.mx/bjv https://tinyurl.com/mus8833t
+muy relevante considerando las miles de personas que allí desempeñan
+sus labores.
+III. Justificación
+Al perfilar a la SCJN como tribunal constitucional a partir de la reforma
+de 1994-1995, la idea que subyace al CJF obedece a las exigencias por
+establecer parámetros objetivos en torno a cuestiones como la carrera ju-
+dicial, la vigilancia y la disciplina de quienes conforman la judicatura, ga-
+rantizando al mismo tiempo su independencia, autonomía y profesiona-
+lismo. La creación de este nuevo órgano judicial buscó dotar al sistema de
+impartición de justicia, de ciertas capacidades institucionales para elevar
+su calidad administrativa y ponerlo a la vanguardia con otros países que ya
+contaban con una institución similar, pues, como escribió Jorge Carpizo,
+“México se encontraba en el último furgón del tren del dinamismo y el
+modernismo jurídicos”.7
+Y aunque el Consejo de la Judicatura también cuenta con atribu-
+ciones para resolver procedimientos disciplinarios y conflictos entre los
+trabajadores de la judicatura, es posible afirmar que la esencia de sus fun-
+ciones es preponderantemente de gobierno y gestión en materia judicial
+(en aras de evitar que la Suprema Corte gaste la mayoría de sus esfuerzos
+en este tipo de tareas).
+En tal sentido, estructuralmente, la configuración del Consejo de-
+pende de la Suprema Corte, ya que éste “carece de la autonomía cons-
+titucionalmente garantizada a muchos de sus homólogos y se incardina
+directamente dentro del Poder Judicial. No tiene, por tanto, la categoría
+de «órgano constitucional autónomo» conceptualmente empleada en Mé-
+xico para aludir a órganos fuera de la tríada, no subordinados a los tres
+poderes «clásicos»”.8
+Por eso se decidió que la persona que lo encabece será la misma quien
+presida la SCJN. Así, el Consejo funciona a través de un pleno, integrado
+7 Carpizo, Jorge, “Otra reforma constitucional. La subordinación del Consejo de la Judica-
+tura Federal”, Cuestiones Constitucionales. Revista Mexicana de Derecho Constitucional, 1
+(2), 2000, p. 209.
+8 Rivera León, Mauro, “De directores y orquestas. Análisis comparado de la posición insti-
+tucional del Consejo de la Judicatura Federal en México”, Boletín Mexicano de Derecho
+Comparado, núm. 159, septiembre-diciembre de 2020, p. 1144.
+DR © 2024. Universidad Nacional Autónoma de México - Instituto de Investigaciones Jurídicas330077
+...samrofer
+ed
+savitaicini
+02
+sal
+ed
+ocincét
+sisilána
+Esta obra forma parte del acervo de la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM
+www.juridicas.unam.mx Libro completo en:
+https://biblio.juridicas.unam.mx/bjv https://tinyurl.com/mus8833t
+por siete consejeros, cuya designación resulta de un modelo mixto, donde
+tres consejeros son designados por la propia Suprema Corte —por ma-
+yoría de cuando menos ocho votos—; dos consejeros son designados por
+el Senado, y uno por el presidente de la República; así, no sólo se busca
+la colaboración y representación de los tres poderes del Estado en dicho
+proceso, sino también una visión plural en la colegialidad que encierra la
+toma de decisiones en este órgano.
+En ese mismo orden de ideas, cabe mencionar que al momento de su
+creación en 1994 se pensó que las decisiones del Consejo serían “definiti-
+vas e inatacables”; “sin embargo, la interpretación de la Corte no dudó en
+subordinar sus decisiones al escrutinio producto del juicio de amparo a
+pesar del texto expreso de la Constitución. En 1999, una reforma consti-
+tucional clarificó la posibilidad de revisar las decisiones del CJF por parte
+de la Corte”,9 pero con la última reforma de 2021 se volvió a acotar di-
+cha posibilidad, vislumbrando un escenario ambivalente, donde la SCJN
+sigue contando con la posibilidad de revisar ciertas determinaciones del
+Consejo.
+En ese contexto, el Consejo de la Judicatura Federal ha realizado su
+trabajo siguiendo su encomienda constitucional. No cabe la menor duda
+que ha sido un órgano de claroscuros, y que muchos de estos sólo se
+explican por múltiples razones, que van desde su carácter técnico y espe-
+cializado en la función jurisdiccional, pasando por la ambivalente articu-
+lación normativa, hasta el liderazgo de las personas que lo han presidido
+y la compleja relación de dependencia y un tanto de subordinación con
+la Suprema Corte.
+A partir de este recorrido se llega a las motivaciones que la actual
+administración federal ha esgrimido para formular la modificación más
+relevante que se haya propuesto en materia de administración judicial
+desde la creación del Consejo en 1994, en el marco de las reformas a la
+Constitución en materia de seguridad pública, procuración y administra-
+ción de justicia.
+Como asumiendo que, después de treinta años de su creación, la per-
+cepción respecto al CJF es absolutamente negativa, el presidente López
+Obrador ha aprovechado el contexto de animadversión que él mismo pro-
+vocó para llevar al extremo las críticas respecto a las funciones del órgano
+9 Ibidem, p. 1160.
+DR © 2024. Universidad Nacional Autónoma de México - Instituto de Investigaciones Jurídicas330088
+...samrofer
+ed
+savitaicini
+02
+sal
+ed
+ocincét
+sisilána
+Esta obra forma parte del acervo de la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM
+www.juridicas.unam.mx Libro completo en:
+https://biblio.juridicas.unam.mx/bjv https://tinyurl.com/mus8833t
+administrativo del Poder Judicial: “Que el Consejo de la Judicatura sea
+un auténtico tribunal para cuidar el buen comportamiento de jueces, ma-
+gistrados y ministros, porque ahora es como si no existiera, es un florero,
+están ahí de adorno… ¿Cómo va a ser que el presidente o presidenta de la
+Corte sea al mismo tiempo juez y parte?”.10
+De nueva cuenta resulta interesante cómo durante los primeros años
+de su sexenio, o acaso mientras Arturo Zaldívar fungía como presidente de
+la Suprema Corte, el titular del Ejecutivo no tuvo muchas palabras para
+el Consejo de la Judicatura, ni tampoco se empeñó en proponer alguna
+reforma al mismo Consejo.
+Más allá de la estrategia política para imponer la agenda pública y ge-
+nerar polarización, uno pensaría que ese tipo de discursos no encuentren
+anclaje en la realidad, por ser mera propaganda y carecer de sustento a
+partir de datos objetivos; sin embargo, tal parece que los discursos del pre-
+sidente terminan por convertirse en la justificación de la propia iniciativa:
+…el diseño actual del Consejo de la Judicatura alienta la opacidad y la
+complicidad entre sus miembros por tratarse de una institución que ac-
+túa como juez y parte, e incluso por consigna, dada la estrecha vincula-
+ción que guarda el Consejo con la presidencia de la SCJN, quien cuenta
+con amplias facultades para nombrar, remover e instruir a las personas
+servidoras públicas de mando que realizan las actividades sustantivas
+dentro de dicho órgano.11
+Como desconociendo por completo la naturaleza colegiada y la es-
+tructura burocrática de dicha institución, tal parece que bajo el contexto
+político que se vive, la voluntad de una persona puede más que cualquier
+diagnóstico o que las recomendaciones de los propios involucrados y de
+especialistas en la materia.
+La propuesta de reforma presentada por el Ejecutivo en cuestiones de
+administración y gobernanza judicial que se expone en el siguiente apar-
+tado, lamentablemente, da prueba de ello.
+10 Villa y Caña, Pedro, “Reforma al Poder Judicial busca separar a quien presida la SCJN de
+encabezar el Consejo de Judicatura: AMLO”, El Universal, 13 de diciembre de 2023.
+11 Fix-Fierro, Héctor (coord.), Ocho propuestas para fortalecer al Poder Judicial de la Federa-
+ción y completar su transformación. Una propuesta académica, México, UNAM, Instituto de
+Investigaciones Jurídicas, 2018.
+DR © 2024. Universidad Nacional Autónoma de México - Instituto de Investigaciones Jurídicas330099
+...samrofer
+ed
+savitaicini
+02
+sal
+ed
+ocincét
+sisilána
+Esta obra forma parte del acervo de la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM
+www.juridicas.unam.mx Libro completo en:
+https://biblio.juridicas.unam.mx/bjv https://tinyurl.com/mus8833t
+IV. ¿En qué consiste ese aspecto
+de la reforma judicial?
+En resumidas cuentas, es posible afirmar que la iniciativa busca replantear
+por completo la existencia del Consejo de la Judicatura Federal al reem-
+plazarlo por un par de órganos especializados. Así, se distinguen dos ejes
+principales que articulan la propuesta de reforma:
+1) Sustituir al actual Consejo de la Judicatura Federal por un nuevo
+órgano de administración judicial con independencia técnica y de
+gestión, así como separado funcional y orgánicamente de la Supre-
+ma Corte, para conocer todo lo relacionado con la administración,
+vigilancia, carrera judicial y control interno del Poder Judicial a
+través de decisiones que en ciertos casos podrán ser revisadas por el
+nuevo órgano disciplinar.
+2) Formar un Tribunal de Disciplina Judicial con independencia
+técnica y facultades amplias para recibir denuncias, investigar,
+sustanciar los procedimientos de responsabilidad administrativa
+y sancionar a las personas servidoras públicas del Poder Judicial
+(incluido el Tribunal Electoral) a través de resoluciones definitivas
+e inatacables.
+De forma particular, sobre el nuevo órgano de administración judi-
+cial es pertinente resaltar que éste se integrará de manera colegiada por
+cinco personas, que durarán en su encargo seis años (una designada por el
+Ejecutivo, otra por el Senado y otras tres por el Pleno de la SCJN). Los
+requisitos para ocupar dicho cargo exigen una experiencia mínima de
+diez años en actividades relacionadas con las funciones sustantivas del
+órgano de administración judicial, y contar con título de licenciatura
+en derecho, economía, administración, contabilidad o cualquier otro
+relacionado con las funciones en cuestión. Su presidencia será rotativa,
+y durará dos años.
+En una de las cuestiones más llamativas del nuevo órgano de admi-
+nistración judicial, la propuesta menciona que todo el presupuesto de
+la judicatura federal, incluida la Suprema Corte, será elaborado por este
+ente para su remisión al Ejecutivo y posterior inclusión en el Presupuesto
+de Egresos. En tal sentido, la toma de decisiones administrativas en el
+DR © 2024. Universidad Nacional Autónoma de México - Instituto de Investigaciones Jurídicas331100
+...samrofer
+ed
+savitaicini
+02
+sal
+ed
+ocincét
+sisilána
+Esta obra forma parte del acervo de la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM
+www.juridicas.unam.mx Libro completo en:
+https://biblio.juridicas.unam.mx/bjv https://tinyurl.com/mus8833t
+Tribunal Electoral ya no sería a partir de un peculiar modelo que deja
+en manos de una comisión del CJF (integrada por tres consejeros de este
+órgano y dos magistrados electorales) su organización y gobernanza, sino
+que éstas pasarían a formar parte del recién creado órgano de administra-
+ción judicial.
+De igual manera, es importante mencionar que tanto la Escuela
+Federal de Formación Judicial como el Instituto Federal de Defensoría
+Pública quedarán dentro de la estructura del órgano de administración
+judicial.
+Ahora bien, respecto al denominado Tribunal de Disciplina Judicial,
+conviene resaltar que éste se integrará por cinco miembros electos por la
+ciudadanía conforme al mismo procedimiento y requisitos que exige la re-
+forma para ser ministro de la SCJN, que su encargo durará seis años y que
+serán sustituidos de manera escalonada. Al igual que el órgano de admi-
+nistración, su presidencia durará dos años (sin reelección para el periodo
+inmediato posterior), pero su elección corresponderá exclusivamente a
+quienes lo integren.
+Dentro de las facultades de este nuevo Tribunal resalta la posibilidad
+de requerir información, llamar a comparecer y apercibir al personal
+del Poder Judicial para sus investigaciones, así como el poder presentar
+denuncias penales, y también solicitar a la Cámara de Diputados el jui-
+cio de procedencia contra los ministros de la SCJN. Además, siguiendo
+esa línea, se autoriza a que cualquier persona pueda presentar ante el
+Tribunal de Disciplina Judicial, quejas o denuncias para que éste inves-
+tigue y, en su caso, sancione la conducta del personal del Poder Judicial
+Federal.
+Cabe mencionar que las sanciones que podría interponer el Tribunal
+van de la amonestación, suspensión, sanción económica, destitución e in-
+habilitación. Sin embargo, para el caso de los miembros de la SCJN, no
+procederá su remoción, a menos que proceda previamente el juicio político.
+A continuación, se dividen en dos incisos las propuestas en estudio
+correspondientes a la iniciativa de reforma judicial del Poder Ejecutivo; el
+primero, relativo al órgano administrativo, y el segundo, al disciplinario;
+a su vez, los apartados se subdividen tanto en aquellos posibles aspectos
+críticos como útiles que se vislumbran.
+DR © 2024. Universidad Nacional Autónoma de México - Instituto de Investigaciones Jurídicas331111
+...samrofer
+ed
+savitaicini
+02
+sal
+ed
+ocincét
+sisilána
+Esta obra forma parte del acervo de la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM
+www.juridicas.unam.mx Libro completo en:
+https://biblio.juridicas.unam.mx/bjv https://tinyurl.com/mus8833t
+V. Opinión ponderada
+Cabe mencionar que el análisis puntual que se presenta en este apartado
+no resulta exhaustivo, ni mucho menos pretende ser definitorio; antes
+bien, por el hecho de no estar desarrolladas las particularidades y especifi-
+caciones de estos aspectos de la reforma judicial en la legislación secunda-
+ria, la ponderación de los siguientes párrafos es más bien de corte enun-
+ciativo, y procura mostrar un panorama general respecto a las principales
+luces y sombras de la propuesta.
+1. Órgano de administración judicial
+A. Posibles aspectos críticos
+— No cabe duda que desde hace tiempo ha sido una demanda la
+separación del CJF de la SCJN, y tanto la academia como dis-
+tintas organizaciones han llamado la atención al respecto, o al
+menos han sugerido la necesidad de dividir su presidencia. Sin
+embargo, el hecho de que la presente iniciativa lo proponga no
+basta para que esto resulte algo benéfico por sí solo. Al momento
+en que se postula dicha separación y se crea un nuevo órgano de
+disciplina judicial, se provoca un completo desequilibrio, que des-
+naturaliza la relación entre función jurisdiccional y administrativa
+en el Poder Judicial. Así, la Suprema Corte pierde su carácter de
+tribunal supremo, y el nuevo órgano de administración judicial
+no termina de separarse, ya que, bajo este esquema, su correcto
+funcionamiento dependerá de una adecuada coordinación con el
+tribunal disciplinar, provocando que la idea de separación entre
+Consejo y Corte mute más bien hacia un híbrido entre órgano de
+administración y tribunal de disciplina, por un lado, y Suprema
+Corte, por el otro. En el fondo, esta propuesta en particular mer-
+ma las capacidades institucionales de la SCJN al invertir la ecua-
+ción, y ahora, en cierta medida, supeditarla a los nuevos órganos.
+Además, no pasa inadvertido que la propuesta de separación, tal
+como se plantea, generaría posibles fricciones y divisiones, que
+DR © 2024. Universidad Nacional Autónoma de México - Instituto de Investigaciones Jurídicas331122
+...samrofer
+ed
+savitaicini
+02
+sal
+ed
+ocincét
+sisilána
+Esta obra forma parte del acervo de la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM
+www.juridicas.unam.mx Libro completo en:
+https://biblio.juridicas.unam.mx/bjv https://tinyurl.com/mus8833t
+podrían producir división dentro de la institución, y así llegar a
+debilitarla.
+— Pasar de siete asientos a cinco en el órgano de administración
+judicial sin responder a otra lógica más que la disminución del ta-
+maño de dicha institución resulta irresponsable. Y es que quienes
+ahora conformen las magistraturas12 de este nuevo ente no sólo
+contarán con mayores cargas de trabajo y deberán solventar todas
+las tareas pendientes que conlleve la desaparición del CJF (que
+podría implicar una larga y dilatada curva de aprendizaje), sino
+que ahora la construcción de acuerdos unánimes será más difícil,
+generando bandos y mayorías endebles, que fácilmente pueden
+perder legitimidad. Creer que el solo hecho de reducir por reducir
+conlleva un beneficio inmediato, o acaso la certeza de que algo
+funcionará mejor, carece de una justificación seria.
+— De poco sirve que se intente vender como una virtud que ahora la
+elaboración de todo el presupuesto para el Poder Judicial de la Fe-
+deración dejará de ser una potestad tanto del CJF como de la SCJN
+para aglutinarse en el nuevo órgano de administración judicial (el
+cual se supone ahora su naturaleza será eminentemente técnica), si
+al final la redacción de la propuesta de reforma nada dice respecto
+de la modificación discrecional del Ejecutivo —como ha venido
+ocurriendo en la práctica—. Si se quiere dotar al nuevo órgano
+judicial de administración de una verdadera independencia y au-
+tonomía, se tiene que confiar en que el presupuesto proyectado no
+se cambiará en ocasión de coyunturas políticas o de los ánimos de
+los líderes en turno. La ausencia de mejores prácticas de transpa-
+rencia, rendición de cuentas y gobernanza judicial develan que la
+reforma administrativa de la judicatura es incompleta o, en todo
+caso, contradictoria. Para qué alardear en cambiar la forma en que
+se integra el presupuesto judicial, si éste dependerá de la voluntad
+de los otros poderes. Además de todo esto, cabe recordar que la
+autonomía presupuestal de la Suprema Corte es un factor impres-
+cindible para ejercer su autonomía.
+12 Una cuestión que, aunque semántica, resulta bastante significativa. A las personas que
+integren el nuevo órgano administrativo judicial se les denomina “magistrados” y “magis-
+tradas”, aun cuando sus funciones serán exclusivamente de corte administrativo.
+DR © 2024. Universidad Nacional Autónoma de México - Instituto de Investigaciones Jurídicas331133
+...samrofer
+ed
+savitaicini
+02
+sal
+ed
+ocincét
+sisilána
+Esta obra forma parte del acervo de la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM
+www.juridicas.unam.mx Libro completo en:
+https://biblio.juridicas.unam.mx/bjv https://tinyurl.com/mus8833t
+— No deja de resultar paradójico que la Escuela Federal de Forma-
+ción Judicial y el Instituto Federal de Defensoría Pública que-
+den a cargo del nuevo órgano de administración judicial y no se
+menciona nada más sobre su fortalecimiento e importancia para
+todo el sistema de justicia federal. Si lo que se pretende es generar
+mejores dinámicas en dicha jurisdicción, lo cierto es que las mo-
+dificaciones deberían también trastocar a tales órganos e ir más
+allá de las cuestiones meramente administrativas y disciplinares.
+El hecho de ahora contar con jueces electos de manera popular
+no elimina su profesionalización ni la necesidad de contar con
+mejores defensores para quienes así lo requieran.
+— La creación de un nuevo órgano de administración judicial, que
+a la vez implica otro de disciplina judicial, de manera inevitable,
+generará una disparidad abismal con los modelos existentes de
+justicia local. Porque, quizá, ése es uno de los puntos más críticos
+de toda la reforma propuesta del Ejecutivo, el omitir por com-
+pleto al federalismo judicial, tal vez pensando que lo que sucede
+en las entidades de la República en esta materia no tiene mayores
+implicaciones para la justicia federal.
+B. Posibles aspectos útiles
+— Tender hacia la especialización en la administración de justicia
+resulta un acierto. La necesidad de contar con mejores prácticas
+de gobernanza judicial es a todas luces algo indispensable para la
+mejor estructuración del sistema. Bajo esa lógica, resulta perti-
+nente contar con personas que tengan una mirada externa y fuera
+de toda lógica del conflicto de intereses.
+— Bajo la lógica de que la Suprema Corte se convierta final y exclu-
+sivamente en un tribunal constitucional, cuyas labores dejen de
+ser administrativas, queda claro que tiene un valor el separar tan-
+to orgánica como funcionalmente al Consejo de la Judicatura de
+dicha institución. Y no sólo eso, sino que también facilita a quien
+presida el máximo tribunal, dedicarse por completo a las labores
+jurisdiccionales y a liderar a sus colegas. No cabe duda de que de-
+pendiendo del perfil de quien presida al máximo tribunal, al sepa-
+DR © 2024. Universidad Nacional Autónoma de México - Instituto de Investigaciones Jurídicas331144
+...samrofer
+ed
+savitaicini
+02
+sal
+ed
+ocincét
+sisilána
+Esta obra forma parte del acervo de la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM
+www.juridicas.unam.mx Libro completo en:
+https://biblio.juridicas.unam.mx/bjv https://tinyurl.com/mus8833t
+rar sus funciones podrían evitarse intromisiones, seguir órdenes, o
+incluso amenazas a personas juzgadoras que se encuentren en un
+nivel inferior. En todo caso, parece que la propuesta de reforma
+no se enfoque para nada en el fortalecimiento de la Suprema Cor-
+te, y esto puede generar un desequilibrio no deseado.
+— En ese mismo sentido, resulta peculiar la forma en que el Ejecu-
+tivo ha propuesto la integración del nuevo órgano de adminis-
+tración judicial, pues además de seguir una lógica que rompe el
+monopolio del derecho en los cargos relacionados con la justicia
+—posibilitando que las personas que lo integren cuenten con una
+licenciatura que bien puede ser en derecho, pero también en eco-
+nomía, contabilidad, o cualquier otra afín al cargo—, propone
+que el Poder Judicial siga manteniendo la mayoría de los asientos
+al nombrar a tres de cinco consejerías. Como emulando exacta-
+mente la misma lógica que primaba en la designación del Consejo
+de la Judicatura, el nuevo órgano de administración judicial sigue
+manteniendo la balanza a favor de los integrantes de la judicatura.
+En ese sentido, el presente cambio no resulta tan diferente, y más
+bien la composición del nuevo órgano judicial dependerá primero
+de la elección popular de personas juzgadoras para que de entre
+los ganadores la Suprema Corte pueda elegir.
+— Parecería que un acierto de la reforma resulta la eliminación de
+la comisión ad hoc del CJF respecto a la administración del Tri-
+bunal Electoral. Y es que con el fin de alinear la estructura or-
+gánica de ese alto tribunal bajo el paraguas del nuevo órgano de
+administración judicial, así como para fortalecer su eficiencia y
+transparencias en dichas cuestiones, lo cierto es que la supresión
+de un modelo tan sui géneris se torna una opción sugerente para
+estandarizar prácticas en torno a la jurisdicción electoral. Aunque
+nada asegure el éxito del presente esquema, y más bien se torna
+indispensable repensar la estructuración del Tribunal Electoral
+dentro del Poder Judicial, lo cierto es que a la presente alterna-
+tiva subyace la inminente necesidad por evitar los desencuentros
+y desazones que han llevado al límite a la presente integración,
+generando múltiples crisis en ocasión de su incapacidad para au-
+togobernarse y acordar colegiadamente.
+DR © 2024. Universidad Nacional Autónoma de México - Instituto de Investigaciones Jurídicas331155
+...samrofer
+ed
+savitaicini
+02
+sal
+ed
+ocincét
+sisilána
+Esta obra forma parte del acervo de la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM
+www.juridicas.unam.mx Libro completo en:
+https://biblio.juridicas.unam.mx/bjv https://tinyurl.com/mus8833t
+2. Tribunal de disciplina judicial
+A. Posibles aspectos críticos
+— Preocupa sobre todo la integración de quienes ocupen los cinco
+puestos para el nuevo órgano de disciplina judicial, ya que al se-
+guir el esquema del voto popular directo no queda nada claro cuá-
+les serán los perfiles de quienes deberán ejercer esa responsabili-
+dad tan importante. Como si la legitimidad democrática de dicho
+mecanismo de selección fuera suficiente para tal encomienda, pa-
+recería que la propuesta de reforma pretende que sus integrantes
+sean una especie de jueces de jueces, “superjueces” o “metajueces”,
+cuyas virtudes y cualidades estén por encima de todos los demás
+miembros del Poder Judicial de la Federación. Al momento en
+que los requisitos y el procedimiento de selección para llegar al
+Tribunal de Disciplina Judicial sean los mismos que los exigidos
+para la Suprema Corte, no sólo se olvida que las facultades y res-
+ponsabilidades son diferentes, sino que también se sobrepone in-
+advertidamente a los miembros del sobre cualquier otro.
+— Que el carácter inatacable de los fallos de este nuevo órgano espe-
+cializado en la disciplina judicial se pretenda exponer como una
+virtud, sin lugar a dudas, resulta contraproducente. La exigencia
+de que todas las decisiones disciplinarias que impacten a las perso-
+nas juzgadoras deben poder ser revisadas por otro órgano judicial
+independiente, claramente, no se puede solventar de forma tan
+sencilla. Si aspira a mantener la facultad de la infalibilidad en
+sus decisiones, el tribunal de disciplina en materia judicial debe
+ensanchar los mecanismos para certificar su profesionalismo y au-
+tonomía, ya que, de entrada, tanto por la forma en que se integra
+el mismo como, sobre todo, por las escasas garantías para quienes
+se vean involucrados en alguno de estos procedimientos, su legiti-
+midad se torna bastante endeble.
+— Si se dota de facultades tan amplias sin algún tipo de demarca-
+ciones objetivas y bien regladas a este nuevo órgano de disciplina
+judicial (que, por cierto, podrían ir desde interponer denuncias
+penales contra cualquier miembro del Poder Judicial hasta el so-
+licitar a la Cámara de Diputados el juicio de procedencia contra
+DR © 2024. Universidad Nacional Autónoma de México - Instituto de Investigaciones Jurídicas331166
+...samrofer
+ed
+savitaicini
+02
+sal
+ed
+ocincét
+sisilána
+Esta obra forma parte del acervo de la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM
+www.juridicas.unam.mx Libro completo en:
+https://biblio.juridicas.unam.mx/bjv https://tinyurl.com/mus8833t
+ministras y ministros de la SCJN), es muy probable que antes
+que fungir como un verdadero revisor de las actuaciones judiciales
+se termine pervirtiendo su naturaleza, al no tener límites claros
+respecto a sus responsabilidades, y se convierta más bien en una
+especie de fiscalía judicial o tribunal inquisitorio que actué con
+completa discreción y gozando de plena impunidad.
+— Para nada resulta menor la manera tan burda en que la propuesta
+omite cualquier comentario respecto a la forma en que los miem-
+bros del tribunal disciplinar pueden ser removidos o inhabilita-
+dos. Considerando que sus integrantes serán electos siguiendo
+exactamente los mismos criterios y procedimientos que los miem-
+bros de la Suprema Corte, la verdad es que resulta una evidente
+contradicción que a estos magistrados nadie los termine vigilando
+y se termine creyendo que éstos gozan de un estatus diferenciado y
+superior dentro de todo el sistema de justicia.
+— Por lo visto, la reforma en torno al nuevo órgano disciplinar habla
+mucho sobre sus tajantes facultades de investigación y sanción,
+así como de las amplias posibilidades para que cualquier persona
+pueda accionarlas; sin embargo, nada se menciona respecto a qué
+tan transparentes y confiables serán los procedimientos de eva-
+luación del personal del Poder Judicial. Como bien se ha escrito,
+habrá que recordar que
+La atribución disciplinaria del CJF es uno de los mecanismos de conso-
+lidación de la independencia del PJF. Esta atribución no se agota en la
+instauración, tramitación y resolución del procedimiento de responsa-
+bilidad administrativa, sino que comprende una serie de elementos de
+carácter normativo, organizacional, políticas públicas, criterios y accio-
+nes que conforman un régimen disciplinario que le es propio.13
+La certeza y la legalidad de las resoluciones de este tribunal deben
+depender de su publicidad y fundamentación si no se quiere dejar en
+completa indefensión e incertidumbre al personal judicial.
+— Al crear el Tribunal de Disciplina Judicial a nivel federal, al igual
+que con el órgano de administración, lo cierto es que se genera
+13 Gutiérrez Salazar, Miguel Ángel, La facultad disciplinaria del Consejo de la Judicatura Fe-
+deral en México, México, UNAM, Instituto de Investigaciones Jurídicas, 2018, p. 147.
+DR © 2024. Universidad Nacional Autónoma de México - Instituto de Investigaciones Jurídicas331177
+...samrofer
+ed
+savitaicini
+02
+sal
+ed
+ocincét
+sisilána
+Esta obra forma parte del acervo de la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM
+www.juridicas.unam.mx Libro completo en:
+https://biblio.juridicas.unam.mx/bjv https://tinyurl.com/mus8833t
+un profundo desbalance entre las posibilidades que tiene la ciu-
+dadanía para contar con la certeza de que los sistemas de justicia
+locales cuentan con parámetros uniformes de calidad y de certeza
+respecto a sus actuaciones. Mientras las propuestas de reforma no
+impacten también el ámbito de los tribunales estatales será muy
+poco probable que se alcancen los objetivos políticos trazados.
+B. Posibles aspectos útiles
+— No cabe duda de que el solo hecho de seccionar al Consejo de la
+Judicatura para crear un organismo especializado en la disciplina
+de las personas juzgadoras genera que las capacidades para realizar
+este tipo de encomiendas se vean fortalecidas. A menor carga de
+trabajo es probable que se mejoren las facultades disciplinarias en
+el sistema de justicia. Sin embargo, sin una correcta estructura-
+ción respecto a su implementación y financiación, lo cierto es que
+al llevar la idea a la práctica se desfonda por completo.
+— La posibilidad de que toda persona o autoridad pueda interponer
+quejas o denuncias ante el Tribunal de Disciplina Judicial para
+investigar las conductas presuntamente ilícitas y sancionar a cual-
+quier servidor público del Poder Judicial, en definitiva, dependerá
+de la buena estructuración de los recursos tanto materiales como
+humanos que disponga este nuevo órgano. Aunque se corre el
+riesgo de terminar convirtiéndose en una especie de fiscalía, lo
+cierto es que este tipo de procedimientos pueden contribuir a ge-
+nerar mejores espacios de fiscalización ciudadana y rendición de
+cuentas.
+A manera de cierre del presente apartado, se torna pertinente men-
+cionar que el balance de los aspectos en análisis de la reforma judicial
+propuesta por el Ejecutivo resulta más preocupante que positivo o acaso
+realista. Esto no sólo por la profunda incertidumbre que generaría un
+periodo de ajuste respecto a su implementación, sino, y quizá sobre todo,
+porque no existe plan alguno de implementación, ni mucho menos algún
+plan respecto a sus proyecciones presupuestales. Estas ideas, que en teoría
+pueden resultar acaso algo sugerentes, en la práctica, más que impactar la
+DR © 2024. Universidad Nacional Autónoma de México - Instituto de Investigaciones Jurídicas331188
+...samrofer
+ed
+savitaicini
+02
+sal
+ed
+ocincét
+sisilána
+Esta obra forma parte del acervo de la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM
+www.juridicas.unam.mx Libro completo en:
+https://biblio.juridicas.unam.mx/bjv https://tinyurl.com/mus8833t
+efectividad en la impartición de justicia, terminarán, triste y lamentable-
+mente, perjudicando de forma directa a las personas justiciables.
+VI. Conclusión
+Hoy más que nunca se torna indispensable hacer mención que desde hace
+tiempo y desde diversos espacios tanto académicos14 como de la sociedad
+civil15 se ha llamado la atención sobre la necesidad de reformar al Consejo
+de la Judicatura; omitir ahora en el presente contexto tales propuestas no
+sólo sería deshonesto, sino también hipócrita. No obstante, y como se
+podrá deducir al analizar con detenimiento la propuesta de reforma, el
+simple hecho de proponer una modificación no significa que ésta funcio-
+ne o que mejore de forma automática el órgano judicial en cuestión.
+La articulación de un mejor CJF, antes que sólo transitar por meras
+ideas retóricamente atractivas, pero desarticuladas y sin algún tipo de vi-
+sión integral respecto a todo el sistema de justicia, implica una ingeniería
+meticulosa y una armonización normativa de gran calado, un trabajo de
+corte técnico y colectivo que contribuya a fortalecer y generar un gobier-
+no judicial más funcional, transparente y eficaz.
+Queda claro que el Poder Judicial Federal, en general, y el Consejo
+de la Judicatura Federal, en específico, distan mucho de ser perfectos.
+Tales instituciones necesariamente requieren nuevas dinámicas y cambios
+que los doten de mayor confianza y credibilidad ante la ciudadanía. Sin
+embargo, queda claro que estas modificaciones no deben ser las que ahora
+propone la iniciativa de reforma judicial del presidente de la República,
+no sólo por su inviabilidad política y financiera, sino también por sus
+profundas incoherencias y visión parcial de todo el sistema de justicia.
+14 Iniciativa con Proyecto de Decreto por el que se reforman, adicionan y derogan diversas
+disposiciones de la Constitución Política de los Estados Unidos Mexicanos, en materia de
+reforma al Poder Judicial, México, 2024, pp. 21 y 22.
+15 Reforma judicial en México. Un análisis desde una perspectiva de corrupción y derechos huma-
+nos, DPL-Fundación para el Debido Proceso y Derechos Humanos y Litigio Estratégico
+Mexicano, 7 de diciembre de 2020.
+DR © 2024. Universidad Nacional Autónoma de México - Instituto de Investigaciones Jurídicas

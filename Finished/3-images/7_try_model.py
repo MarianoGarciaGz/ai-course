@@ -77,5 +77,5 @@ def classify_images_in_directory(directory_path):
                     print(f"Carpeta: {folder_name}, Imagen: {file}, No se pudo clasificar.")
 
 # Ejemplo de uso
-directory_path = "./Test/3"  # Ruta al directorio raíz
+directory_path = "./Test/5"  # Ruta al directorio raíz
 classify_images_in_directory(directory_path)
