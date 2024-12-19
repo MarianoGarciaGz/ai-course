@@ -190,6 +190,28 @@ def mostrar_menu():
                     pygame.quit()
                     exit()
 
+def guardar_datos_en_csv(filepath="dataset.csv"):
+    global datos_para_csv
+    import csv
+
+    if not datos_para_csv:
+        print("No hay datos para guardar.")
+        return
+
+    # Escribir datos en un archivo CSV
+    columnas = ['velocidad', 'distancia', 'salto']
+    try:
+        # Si el archivo no existe, crea uno nuevo con encabezados
+        archivo_existe = os.path.exists(filepath)
+        with open(filepath, mode='a', newline='') as archivo_csv:
+            escritor = csv.writer(archivo_csv)
+            if not archivo_existe:
+                escritor.writerow(columnas)  # Escribe encabezados
+            escritor.writerows(datos_para_csv)
+        print(f"Datos guardados en {filepath}.")
+    except Exception as e:
+        print(f"Error al guardar datos en CSV: {e}")
+
 def entrenar_ambos_modelos_desde_memoria():
     global datos_para_csv, model_manager
     datos = np.array(datos_para_csv)
@@ -266,12 +288,13 @@ def jugar_automatico():
         en_suelo = False
 
 def perder_y_regresar_menu():
-    global datos_para_csv, jugador, bala, nave, bala_disparada, salto, en_suelo
+    global datos_para_csv, jugador, bala, nave, bala_disparada, salto, en_suelo, modo_auto
 
-    # Entrenar ambos modelos con los datos en memoria al morir o salir
-    entrenar_ambos_modelos_desde_memoria()
+    if modo_auto == "manual" and datos_para_csv:
+        # Guardar datos en CSV antes de reiniciar
+        guardar_datos_en_csv()
 
-    # Reiniciamos el juego
+    # Reiniciar el juego
     jugador.x, jugador.y = 50, h - 100
     bala.x = w - 50
     nave.x, nave.y = w - 100, h - 100
@@ -279,6 +302,7 @@ def perder_y_regresar_menu():
     salto = False
     en_suelo = True
     mostrar_menu()
+
 
 def reiniciar_juego():
     global menu_activo, jugador, bala, nave, bala_disparada, salto, en_suelo
